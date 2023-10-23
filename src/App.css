@@ -7,12 +7,22 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-color: #010101;
+  background-color: #202020;
   padding: 14px; 
   font-size: 12px;
+  width: 70%;
+  position: absolute;
+  left: 13%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
 }
 
 .navbar > span > Link:hover  {
   background-color: red;
+}
+
+.navbar-nav {
+  background-color: #202020;
 }
   
