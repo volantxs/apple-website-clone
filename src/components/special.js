@@ -12,35 +12,27 @@ const Special = () => {
         <Carousel 
           responsive={responsive} 
           showDots={false} 
-          swipeable={true}
-          autoPlaySpeed={3000}
-          renderArrowsWhenDisabled={false}
-  renderButtonGroupOutside={false}
-  renderDotsOutside={false}
-          minimumTouchDrag={80}
-          focusOnSelect={true}
-          keyBoardControl>
-            <div className="special_item">
+          >
+            <div className="special_item one">
             <h5>FESTIVE OFFER</h5>
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
-            <div className="special_item">
+            <div className="special_item two">
             <h5>FESTIVE OFFER</h5>
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
-            <div className="special_item">
+            <div className="special_item three">
             <h5>FESTIVE OFFER</h5>
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
-            <div className="special_item">
+            <div className="special_item four">
             <h5>FESTIVE OFFER</h5>
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
-            <div className="special_item">
+            <div className="special_item five">
             <h5>FESTIVE OFFER</h5>
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
-
         </Carousel>
 
         </section>
@@ -52,11 +44,6 @@ const Special = () => {
 }
 
 const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 4
-    },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3.6

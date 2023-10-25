@@ -11,62 +11,56 @@ const Hero = () => {
             <section className="hero_section">
                 <h1><span>Store.</span> Brighten the season with products you love.</h1>
             </section>
-            <section className="hero_slider">
-            <Carousel 
-          responsive={responsive} 
-          showDots={false} 
-          swipeable={true}
-          minimumTouchDrag={10}
-          focusOnSelect={true}
-          keyBoardControl>
-                <div className="slider_item">
+            {/* <section className="hero_slider"> */}
+                <Carousel responsive={responsive} 
+                className="hero_slider">
+                <div className="slider_item" >
                     <img
-                    src="https://www.apple.com/v/mac/compare/v/images/meta/mac-compare__ct98832ueaky_og.png?202302010507" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670959891635" />
                     <p>Mac</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://freepngimg.com/save/133339-picture-12-apple-iphone-hd-image-free/896x672" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071" />
                     <p>iPhone</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://img-prd-pim.poorvika.com/product/Apple-ipad-air-with-apple-m1-chip-10-9-inch-wifi-space-grey-5th-generation-side-view-Model-Image.png" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437" />
                     <p>iPad</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://png.pngtree.com/png-clipart/20230823/original/pngtree-smart-electronic-apple-watches-vector-set-picture-image_8195761.png" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&hei=130&fmt=png-alpha&.v=1693703814407" />
                     <p>Apple Watch</p>
                 </div>
-                <div className="slider_item">
+                <div className="slider_item" >
                     <img
-                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1551489688005" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885" />
                     <p>AirPods</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP840/airtag.png" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000" />
                     <p>AirTag</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202210_FMT_WHH?wid=640&hei=600&fmt=jpeg&qlt=90&.v=1664896361164" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664628458484" />
                     <p>Apple TV 4K</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://help.apple.com/assets/6426055D5E9B81542A36F8B9/642605705E9B81542A36F8CA/en_GB/e6aa3bd284ebc39ed8eec6e9c947e838.png" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670389216654" />
                     <p>HomePod</p>
                 </div>
                 <div className="slider_item">
                     <img
-                    src="https://images.deccanherald.com/deccanherald%2F2023-09%2Fe3d9a6a3-6e9b-4ddd-9f21-4138ac2065ca%2FScreenshot_2023_09_13_at_3_38_40_AM.png" />
+                    src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1692803114952" />
                     <p>Accessories</p>
                 </div>
                 </Carousel>
-
-            </section>
+            {/* </section> */}
 
         </div>
     )
@@ -76,11 +70,11 @@ const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 4
+      items: 8
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 8
+      items: 7
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -88,7 +82,7 @@ const responsive = {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 2
     }
   };
 

@@ -1,6 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
+*::before, *::after{
+  box-sizing: border-box;
+}
+
+
 .App {
   text-align: center;
-
 }
 
 /* NAVBAR */
@@ -14,7 +22,7 @@
   font-size: 13px;
   width: 80%;
   position: absolute;
-  left: 8.5%;
+  left: 9.5%;
   top: 0%;
   background: white;
   border-bottom-left-radius: 10px;
@@ -32,11 +40,10 @@
 
 .hero {
   overflow: hidden;
-
+  
 }
 
 .hero_header > p {
-  width: 100%;
   text-align: center;
   color: #cc8b08;
 }
@@ -50,6 +57,7 @@
   margin-bottom: 11rem;
   width: 50rem;
   left: 8.5%;
+
 }
 
 .hero_section > h1 > span {
@@ -58,18 +66,24 @@
 }
 
 .hero_slider {
+  /* overflow: auto; */
+  /* display: flex;
+  flex-wrap: row nowrap;
+  justify-content: space-evenly; */
+  position: relative;
+  left: 7%;
+  margin-right: 10%;
 }
 
+
 .slider_item > img {
-  max-height: 6rem;
+  max-height: 5rem;
 }
 
 .slider_item {
   text-align: center;
   font-weight: 600;
   font-size: 1rem;
-  padding: 1rem;
-  width: 25rem;
 }
 
 
@@ -99,16 +113,22 @@
 
 .special_item {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
-  background-repeat: no-repeat;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
   height: 31rem;
   box-sizing: border-box;
   border-radius: 20px;
   padding: 2rem;
   max-width: 25rem;
-
 }
+.one{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
+  background-repeat: no-repeat;
+}
+.two{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-iphone-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587681");
+  background-repeat: no-repeat;
+}
+
 
 .special_item > h5 {
   color: rgb(255, 190, 111);
