@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Special from './components/special';
 import Latest from './components/latest';
+import Vision from './components/vision';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
   <Hero/>
   <Special/>
   <Latest/>
+  <Vision />
   </Router>
   );
 }

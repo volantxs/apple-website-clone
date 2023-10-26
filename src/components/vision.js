@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const Latest = () => {
+const Vision = () => {
 
     return(
         <div className="latest">
@@ -13,32 +13,32 @@ const Latest = () => {
           responsive={responsive} 
           showDots={false} 
           >
-            <div className="latest_item l_one">
+            <div className="vision_item v_one">
             <h5>IPHONE 15</h5>
             <h1>Newphoria</h1>
             <p>From 79900.00</p>
             </div>
-            <div className="latest_item l_two">
+            <div className="vision_item v_two">
             <h5>IPHONE 15 PRO</h5>
             <h1>Titanium</h1>
             <p>From 134900.00</p>
             </div>
-            <div className="latest_item l_three">
+            <div className="vision_item v_three">
             <h5>APPLE WATCH SERIES 9</h5>
             <h1>Smarter. Brighter. Mightier</h1>
             <p>From 41900.00</p>
             </div>
-            <div className="latest_item l_four">
+            <div className="vision_item v_four">
             <h5>APPLE WATCH ULTRA 2</h5>
             <h1>Next-level adventure.</h1>
             <p>From 89900.00</p>
             </div>
-            <div className="latest_item l_five">
+            <div className="vision_item v_five">
             <h5>GREEN TECH</h5>
             <h1>Shop carbon-neutral Apple Watch starps.</h1>
             <p>Learn more at <a>here</a></p>
             </div>
-            <div className="latest_item l_six">
+            <div className="vision_item v_six">
             <h5>AVAILABLE EARLY NOVEMBER APPLE PENCIL</h5>
             <h1>The most affordable Apple Pencil</h1>
             <p>From 7900.00</p>
@@ -56,7 +56,7 @@ const Latest = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.6
+      items: 4.5
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
@@ -68,4 +68,4 @@ const responsive = {
     }
   };
 
-export default Latest;
+export default Vision;

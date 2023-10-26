@@ -13,7 +13,9 @@ const Hero = () => {
             </section>
             {/* <section className="hero_slider"> */}
                 <Carousel responsive={responsive} 
-                className="hero_slider">
+                className="hero_slider"
+                
+                >
                 <div className="slider_item" >
                     <img
                     src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670959891635" />
@@ -61,7 +63,6 @@ const Hero = () => {
                 </div>
                 </Carousel>
             {/* </section> */}
-
         </div>
     )
 }
@@ -74,7 +75,7 @@ const responsive = {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 7
+      items: 8
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
