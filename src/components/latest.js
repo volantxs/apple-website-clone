@@ -1,43 +1,44 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const Special = () => {
+const Latest = () => {
 
     return(
-        <div className="special">
-        <header className="special_header">
-           <p><span style={{color: "black"}}>Festive specials.</span> All the reasons to rejoice</p>
+        <div className="latest">
+        <header>
+           <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
         </header>
-        <section className="special_slider">
+        <section className="latest_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
           >
-            <div className="special_item one">
-            <h5>FESTIVE OFFER</h5>
-            <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
+            <div className="latest_item l_one">
+            <h5>IPHONE 15</h5>
+            <h1>Newphoria</h1>
+            <p>From 79900.00</p>
             </div>
-            <div className="special_item two">
-            <h5>IPHONE</h5>
-            <p>Save up to ₹6000.00§§
-Trade in your smartphone to save even more.*</p>
+            <div className="latest_item l_two">
+            <h5>IPHONE 15 PRO</h5>
+            <h1>Titanium</h1>
+            <p>From 134900.00</p>
             </div>
-            <div className="special_item three">
+            <div className="latest_item l_three">
             <h5>MAC</h5>
             <p>Save up to ₹10000.00§§
 Customise it the way you want.</p>
             </div>
-            <div className="special_item four">
+            <div className="latest_item l_four">
             <h5>IPAD</h5>
             <p>Save up to ₹10000.00§§
 Customise it the way you want.</p>
             </div>
-            <div className="special_item five">
+            <div className="latest_item l_five">
             <h5>APPLE WATCH</h5>
             <p>Save up to ₹10000.00§§
 Customise it the way you want.</p>
             </div>
-            <div className="special_item six">
+            <div className="latest_item l_six">
             <h5>APPLE WATCH</h5>
             <p>Save up to ₹10000.00§§
 Customise it the way you want.</p>
@@ -67,4 +68,4 @@ const responsive = {
     }
   };
 
-export default Special;
+export default Latest;
