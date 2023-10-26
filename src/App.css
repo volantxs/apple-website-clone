@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 *{
   box-sizing: border-box;
+  font-family: Inter, sans-serif;
 }
 
 *::before, *::after{
@@ -78,8 +82,8 @@
 
 .slider_item {
   text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight:600;
+  font-size: 14px;
   position: relative;
   left: 6rem;
 }
@@ -272,7 +276,15 @@
   transform: scale(1.02);
 }
 
+.vision_item > h1 {
+  font-weight: 600;
+  line-height: 1.1;
+}
 
+.vision_item > span {
+  position: relative;
+  top: 1rem;
+}
 
 .v_one {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-17-diwali-difference-iphone-202310?wid=313&hei=240&fmt=p-jpg&qlt=95&.v=1696281487419");

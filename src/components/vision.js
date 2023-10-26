@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { TbExchange } from "react-icons/tb"
 
 const Vision = () => {
 
@@ -14,9 +15,8 @@ const Vision = () => {
           showDots={false} 
           >
             <div className="vision_item v_one">
-            <h5>IPHONE 15</h5>
-            <h1>Newphoria</h1>
-            <p>From 79900.00</p>
+            <span><TbExchange size={35} color="#DA0C81" /></span>
+            <h1><span style={{color:"#DA0C81"}}>Exchange your current smartphone.</span> Get credit towards a new one.</h1>
             </div>
             <div className="vision_item v_two">
             <h5>IPHONE 15 PRO</h5>
