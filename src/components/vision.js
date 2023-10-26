@@ -1,6 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { TbExchange } from "react-icons/tb"
+import { BsApple } from "react-icons/bs"
+import { CgSmileMouthOpen } from "react-icons/cg"
+import { BsFillCreditCardFill } from "react-icons/bs"
+import { HiOutlineTruck } from "react-icons/hi2"
 
 const Vision = () => {
 
@@ -9,39 +13,34 @@ const Vision = () => {
         <header>
            <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
         </header>
-        <section className="latest_slider">
+        <section className="vision_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
           >
             <div className="vision_item v_one">
-            <span><TbExchange size={35} color="#DA0C81" /></span>
+            <span><TbExchange size={40} color="#DA0C81" /></span>
             <h1><span style={{color:"#DA0C81"}}>Exchange your current smartphone.</span> Get credit towards a new one.</h1>
             </div>
             <div className="vision_item v_two">
-            <h5>IPHONE 15 PRO</h5>
-            <h1>Titanium</h1>
-            <p>From 134900.00</p>
+            <span><BsApple size={40} color="#80B3FF" /></span>
+            <h1><span style={{color:"#80B3FF"}}>Customise your Mac</span></h1>
             </div>
             <div className="vision_item v_three">
-            <h5>APPLE WATCH SERIES 9</h5>
-            <h1>Smarter. Brighter. Mightier</h1>
-            <p>From 41900.00</p>
+            <span><CgSmileMouthOpen size={45} color="#F99417" /></span>
+            <h1><span style={{color:"#F99417"}}>Engrave a mix of emoji, names and numbers for free.</span> Only at Apple</h1>
             </div>
             <div className="vision_item v_four">
-            <h5>APPLE WATCH ULTRA 2</h5>
-            <h1>Next-level adventure.</h1>
-            <p>From 89900.00</p>
+            <span><BsFillCreditCardFill size={45} color="#79AC78" /></span>
+            <h1><span style={{color:"#79AC78"}}>Flexible ways to pay.</span> Plus instant savings and No Cost EMI.</h1>
             </div>
             <div className="vision_item v_five">
-            <h5>GREEN TECH</h5>
-            <h1>Shop carbon-neutral Apple Watch starps.</h1>
-            <p>Learn more at <a>here</a></p>
+            <span><HiOutlineTruck size={45} color="#BC7AF9" /></span>
+            <h1><span style={{color:"#BC7AF9"}}>Enjoy free delivery, or easy pickup</span> from an Apple Store.</h1>
             </div>
             <div className="vision_item v_six">
-            <h5>AVAILABLE EARLY NOVEMBER APPLE PENCIL</h5>
-            <h1>The most affordable Apple Pencil</h1>
-            <p>From 7900.00</p>
+            <span><BsFillCreditCardFill size={45} color="#64CCC5" /></span>
+            <h1><span style={{color:"#64CCC5"}}>Trade in your eligible Mac, Apple Watch or iPad.</span> In store only.</h1>
             </div>
         </Carousel>
 
@@ -60,7 +59,7 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
-      items: 2.2
+      items: 2.8
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
