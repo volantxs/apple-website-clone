@@ -11,7 +11,7 @@ const Vision = () => {
     return(
         <div className="latest">
         <header>
-           <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
+           <span style={{color: "black"}}>The Apple Store difference.</span> Even more reasons to shop with us.
         </header>
         <section className="vision_slider">
         <Carousel 

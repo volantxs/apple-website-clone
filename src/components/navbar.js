@@ -8,43 +8,43 @@ const Navbar = () => {
 
         <nav className='navbar'>
             <span>
-                <Link to="/" style={{textDecoration: "none"}}><BsApple size={16} /></Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}><BsApple size={17} /></Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Store</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Store</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Mac</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Mac</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>iPad</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>iPad</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>iPhone</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>iPhone</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Watch</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Watch</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>AirPods</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>AirPods</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>TV & Home</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>TV & Home</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Entertainment</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Entertainment</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Accessories</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Accessories</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}>Support</Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}>Support</Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}><BsSearch size={14} style={{position: "relative",top:"2px"}} /></Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}><BsSearch size={14} style={{position: "relative",top:"2px"}} /></Link>
             </span>
             <span>
-                <Link to="/" style={{ textDecoration: "none"}}><CgShoppingBag size={16}  /></Link>
+                <Link to="/" style={{color:"black", textDecoration: "none"}}><CgShoppingBag size={16}  /></Link>
             </span>
             </nav>
             

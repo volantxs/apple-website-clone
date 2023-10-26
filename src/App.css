@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-
 *{
   box-sizing: border-box;
   font-family: Inter, sans-serif;
@@ -99,7 +98,7 @@
 }
 
 .special_header {
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: 600;
   color: rgb(135, 135, 135);
   position: relative;
@@ -118,11 +117,11 @@
   padding: 2rem;
   width: 25rem;
   margin-left: 8rem;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
-  margin-top: 2rem;
   transition: transform 1s;
+  cursor: pointer;
 }
+
 .special_item:hover {
   transform: scale(1.02);
 }
@@ -163,7 +162,7 @@
 .special_item > p {
   color: rgb(255, 243, 177);
   text-align: start;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
   position: relative;
   top: -2rem;
@@ -181,7 +180,7 @@
 }
 
 .latest > header {
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: 600;
   color: rgb(135, 135, 135);
   position: relative;
@@ -204,6 +203,7 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   transition: transform 1s;
+  cursor: pointer;
 }
 
 .latest_item:hover{
@@ -261,7 +261,6 @@
 }
 
 .vision_item {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 15rem;
   border-radius: 20px;
   padding-left: 2rem;
@@ -272,6 +271,8 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   transition: transform 1s;
+  cursor: pointer;
+
 }
 
 .vision_item:hover{

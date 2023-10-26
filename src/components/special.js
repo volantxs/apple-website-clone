@@ -11,7 +11,6 @@ const Special = () => {
         <section className="special_slider">
         <Carousel 
           responsive={responsive} 
-          showDots={false} 
           >
             <div className="special_item one">
             <h5>FESTIVE OFFER</h5>
