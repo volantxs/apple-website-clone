@@ -92,9 +92,7 @@
 /* ------------------SPECIAL------------------ */
 
 .special {
-  position: relative;
   overflow: hidden;
-
 }
 
 .special_header {
@@ -103,22 +101,21 @@
   color: rgb(135, 135, 135);
   position: relative;
   left: 8.5%;
-
 }
 
 .special_slider {
-  position: relative;
-  left: 8.5%;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .special_item {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
   height: 31rem;
   box-sizing: border-box;
   border-radius: 20px;
   padding: 2rem;
-  max-width: 25rem;
+  width: 25rem;
+  margin-left: 8rem;
 }
 .one{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
@@ -126,6 +123,18 @@
 }
 .two{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-iphone-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587681");
+  background-repeat: no-repeat;
+}
+.three{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-mac-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589457");
+  background-repeat: no-repeat;
+}
+.four{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-ipad-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587575");
+  background-repeat: no-repeat;
+}
+.five{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-watch-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589863");
   background-repeat: no-repeat;
 }
 

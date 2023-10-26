@@ -18,20 +18,24 @@ const Special = () => {
             <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
             </div>
             <div className="special_item two">
-            <h5>FESTIVE OFFER</h5>
-            <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
+            <h5>IPHONE</h5>
+            <p>Save up to ₹6000.00§§
+Trade in your smartphone to save even more.*</p>
             </div>
             <div className="special_item three">
-            <h5>FESTIVE OFFER</h5>
-            <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
+            <h5>MAC</h5>
+            <p>Save up to ₹10000.00§§
+Customise it the way you want.</p>
             </div>
             <div className="special_item four">
-            <h5>FESTIVE OFFER</h5>
-            <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
+            <h5>IPAD</h5>
+            <p>Save up to ₹10000.00§§
+Customise it the way you want.</p>
             </div>
             <div className="special_item five">
-            <h5>FESTIVE OFFER</h5>
-            <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards.</p>
+            <h5>APPLE WATCH</h5>
+            <p>SSave up to ₹10000.00§§
+Customise it the way you want.</p>
             </div>
         </Carousel>
 
@@ -49,7 +53,7 @@ const responsive = {
       items: 3.6
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 764 },
       items: 2.2
     },
     mobile: {
