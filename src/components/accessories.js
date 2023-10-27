@@ -10,19 +10,23 @@ const Accessories = () => {
         </header>
         <section   className="latest_slider" >
         <div className="acce_head a_one">
-            <h5>IPHONE 15</h5>
-            <h1>Newphoria</h1>
-            <p>From 79900.00</p>
+        <h5>FABULOUSLY FESTIVE</h5>
+            <p>Curated accessories to spread joy.</p>
             </div>
+            <div className="cara">
+
         <Carousel 
           responsive={responsive} 
           showDots={false} 
-          className="cara"
           >
             <div className="acce_item a_two">
             <h5>IPHONE 15 PRO</h5>
             <h1>Titanium</h1>
             <p>From 134900.00</p>
+            <div>
+              <span></span>
+
+            </div>
             </div>
             <div className="acce_item a_three">
             <h5>APPLE WATCH SERIES 9</h5>
@@ -45,6 +49,7 @@ const Accessories = () => {
             <p>From 7900.00</p>
             </div>
         </Carousel>
+        </div>
 
         </section>
 
@@ -57,11 +62,11 @@ const Accessories = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.5
+      items: 2.9
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
-      items: 2.2
+      items: 1.3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },

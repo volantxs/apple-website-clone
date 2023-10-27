@@ -115,6 +115,8 @@
   box-sizing: border-box;
   border-radius: 20px;
   padding: 2rem;
+  padding-right: 3rem;
+
   width: 25rem;
   margin-left: 8rem;
   margin-bottom: 2rem;
@@ -340,13 +342,15 @@
 }
 
 .acce_head{
-  display: inline-flex;
+  float: left;
   height: 31rem;
   border-radius: 20px;
   padding-left: 2rem;
-  padding-top: 1rem;
-  width: fit-content;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  width: 25rem;
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-giftacc-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587624");
+  background-repeat: no-repeat;
   margin-left: 8rem;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
@@ -355,7 +359,26 @@
   cursor: pointer;
 }
 
+.acce_head > h5 {
+  color: rgb(255, 190, 111);
+  font-weight: 400;
+  position: relative;
+  top: -1rem;
+  
+}
+.acce_head > p {
+  color: rgb(255, 243, 177);
+  text-align: start;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  top: -2rem;
+  line-height: 1.2;
+
+} 
+
 .acce_item {
+  float: right;
   height: 31rem;
   border-radius: 20px;
   padding-left: 2rem;
