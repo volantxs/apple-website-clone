@@ -203,12 +203,17 @@
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
   margin-top: 2rem;
-  transition: transform 500ms;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
   cursor: pointer;
 }
 
 .latest_item:hover{
   transform: scale(1.02);
+  background-size: 110%;
+  background-position-y: -20px ;
 }
 
 .latest_item > h5 {
