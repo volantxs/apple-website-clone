@@ -187,8 +187,7 @@
   left: 8.5%;
 }
 
-.latest_slider{
-}
+
 
 .latest_item {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -316,4 +315,73 @@
 }
 .v_six {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-17-diwali-difference-tradein-202310?wid=313&hei=240&fmt=jpeg&qlt=95&.v=1696281489379");
+}
+
+/* ---------------ACCESSORIES---------------- */
+
+.acce{
+  overflow: hidden;
+
+}
+
+.acce > header {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(135, 135, 135);
+  position: relative;
+  left: 8.5%;
+}
+
+.latest_slider{
+
+}
+
+.cara{
+}
+
+.acce_head{
+  display: inline-flex;
+  height: 31rem;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: fit-content;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-giftacc-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587624");
+  margin-left: 8rem;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.acce_item {
+  height: 31rem;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 20rem;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+
+.a_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-position-y:17rem;
+}
+
+.a_three {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994342983");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-position-y:18rem;
+
 }

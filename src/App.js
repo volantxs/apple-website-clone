@@ -6,6 +6,7 @@ import Hero from './components/hero';
 import Special from './components/special';
 import Latest from './components/latest';
 import Vision from './components/vision';
+import Accessories from './components/accessories';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
   <Special/>
   <Latest/>
   <Vision />
+  <Accessories/>
   </Router>
   );
 }
