@@ -6,9 +6,9 @@ const Accessories = () => {
     return(
         <div className="acce">
         <header>
-           <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
+           <span style={{color: "black"}}>Accesories.</span> Festive gift ideas.
         </header>
-        <section   className="latest_slider" >
+        <section   className="latest_slider"  >
         <div className="acce_head a_one">
         <h5>FABULOUSLY FESTIVE</h5>
             <p>Curated accessories to spread joy.</p>
@@ -17,44 +17,81 @@ const Accessories = () => {
 
         <Carousel 
           responsive={responsive} 
-          showDots={false} 
           >
             <div className="acce_item a_two">
-            <h5>IPHONE 15 PRO</h5>
-            <h1>Titanium</h1>
-            <p>From 134900.00</p>
+            <h5>NEW</h5>
+            <h3>iPhone 15 Pro FineWoven Case with MagSafe - Taupe</h3>
+            <p>MRP 5900.00 (incl. of all taxes)</p>
             <div className="dot">
               <span style={{backgroundColor: "#B0578D"}}></span>
               <span style={{backgroundColor: "#618264"}}></span>
               <span style={{backgroundColor: "#C8AE7D"}}></span>
               <span style={{backgroundColor: "#749BC2"}}></span>
               <span style={{backgroundColor: "#7D7C7C"}}></span>
-
             </div>
             </div>
             <div className="acce_item a_three">
-            <h5>APPLE WATCH SERIES 9</h5>
-            <h1>Smarter. Brighter. Mightier</h1>
-            <p>From 41900.00</p>
+            <h5>NEW</h5>
+            <h3>iPhone FineWoven Wallet with MagSafe - Mulberry</h3>
+            <p>MRP 5900.00 (incl. of all taxes)</p>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            </div>
             </div>
             <div className="acce_item a_four">
-            <h5>APPLE WATCH ULTRA 2</h5>
-            <h1>Next-level adventure.</h1>
-            <p>From 89900.00</p>
+            <h5>FREE ENGRAVING</h5>
+            <h3>AirTag</h3>
+            <p>MRP 3490.00 (incl. of all taxes)</p>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            </div>
             </div>
             <div className="acce_item a_five">
-            <h5>GREEN TECH</h5>
-            <h1>Shop carbon-neutral Apple Watch starps.</h1>
-            <p>Learn more at <a>here</a></p>
+            <h5>NEW</h5>
+            <h3>Apple TV 4K Wi-Fi with 64GB storage</h3>
+            <p>MRP 14900.00 (incl. of all taxes)</p>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            </div>
             </div>
             <div className="acce_item a_six">
-            <h5>AVAILABLE EARLY NOVEMBER APPLE PENCIL</h5>
-            <h1>The most affordable Apple Pencil</h1>
-            <p>From 7900.00</p>
+            <h5>NEW</h5>
+            <h3>iPhone 15 FineWoven Case with MagSafe - Pacific Blue</h3>
+            <p>MRP 5900.00 (incl. of all taxes)</p>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            </div>
+            </div>
+            <div className="acce_item a_seven" >
+            <h5>NEW</h5>
+            <h3>41mm Mulberry Modern Buckle - Medium</h3>
+            <p>MRP 14500.00 (incl. of all taxes)</p>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            </div>
             </div>
         </Carousel>
         </div>
-
         </section>
 
     </div>
