@@ -381,7 +381,6 @@
   float: right;
   height: 31rem;
   border-radius: 20px;
-  padding-left: 2rem;
   padding-top: 1rem;
   width: 20rem;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
@@ -391,6 +390,9 @@
   cursor: pointer;
 }
 
+.acce_item > :is(h5, h1, p) {
+  padding-left: 2rem;
+}
 
 .a_two {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616");
@@ -406,5 +408,20 @@
   background-size: auto;
   background-position: center;
   background-position-y:18rem;
+}
 
+.dot{
+  display: flex;
+  justify-content: space-evenly;
+  width: 8rem;
+  margin: auto;
+}
+
+.dot > span{
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  box-shadow: inset -1px 1px 5px rgba(39, 15, 2, 0.5) ;
+  display: inline-block;
+  opacity: 1;
 }

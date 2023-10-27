@@ -23,8 +23,12 @@ const Accessories = () => {
             <h5>IPHONE 15 PRO</h5>
             <h1>Titanium</h1>
             <p>From 134900.00</p>
-            <div>
-              <span></span>
+            <div className="dot">
+              <span style={{backgroundColor: "#B0578D"}}></span>
+              <span style={{backgroundColor: "#618264"}}></span>
+              <span style={{backgroundColor: "#C8AE7D"}}></span>
+              <span style={{backgroundColor: "#749BC2"}}></span>
+              <span style={{backgroundColor: "#7D7C7C"}}></span>
 
             </div>
             </div>
