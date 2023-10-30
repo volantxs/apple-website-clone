@@ -25,7 +25,7 @@ const Audio = () => {
             <div className="audio_item u_three exPad">
             <h3>HomePod - Midnight</h3>
             <p>MRP 32900.00 (incl. of all taxes)</p>
-            <div className="dot au">
+            <div className="dot_au">
               <span style={{backgroundColor: "#45474B"}}></span>
               <span style={{backgroundColor: "#F5F5F5"}}></span>
             </div>
@@ -33,7 +33,7 @@ const Audio = () => {
             <div className="audio_item u_four exPad">
             <h3>HomePod min - Orange</h3>
             <p>MRP 10900.00 (incl. of all taxes)</p>
-            <div className="dot">
+            <div className="dot_n">
               <span style={{backgroundColor: "#45474B"}}></span>
               <span style={{backgroundColor: "#2E4374"}}></span>
               <span style={{backgroundColor: "#FFCC70"}}></span>

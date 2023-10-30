@@ -11,8 +11,9 @@
 
 
 .App {
-  text-align: center;
+
 }
+
 
 /* NAVBAR */
 
@@ -23,14 +24,15 @@
   justify-content: space-around;
   padding: 14px; 
   font-size: 13px;
-  width: 80%;
-  position: absolute;
-  left: 9.5%;
+  width: 68%;
+  position: fixed;
+  left: 16%;
   top: 0%;
-  background: white;
+  z-index: 2;
+  background: rgb(255, 255, 255);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: 0px 4px 8px rgb(221, 221, 221);
+  /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar > span  {
@@ -40,6 +42,11 @@
   
 /* ---------------------------HERO--------------------- */
 
+.hero{
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 .hero_header > p {
   text-align: center;
@@ -67,15 +74,17 @@
   /* display: flex;
   flex-wrap: row nowrap;
   justify-content: space-evenly; */
+  cursor: pointer;
+
 }
 
 
 .slider_item > img {
   max-height: 5rem;
+
 }
 
 .slider_item {
-  cursor: pointer;
   text-align: center;
   font-weight:600;
   font-size: 14px;
@@ -85,11 +94,12 @@
 
 
 
+
 /* ------------------SPECIAL------------------ */
 
 .special {
   overflow: hidden;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .special_header {
@@ -191,8 +201,8 @@
 
 .latest{
   overflow: hidden;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
 }
 
 .latest > header {
@@ -213,7 +223,7 @@
   padding-top: 1rem;
   width: 25rem;
   margin-left: 8rem;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
   margin-top: 2rem;
   background-size: 100%;
@@ -225,7 +235,7 @@
 
 .latest_item:hover{
   transform: scale(1.02);
-  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
   background-size: 107%;
   background-position-y: -20px ;
 }
@@ -287,7 +297,7 @@
   padding-top: 1rem;
   width: 20rem;
   margin-left: 8rem;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
   margin-top: 2rem;
   transition: transform 500ms;
@@ -342,6 +352,8 @@
 
 .acce{
   overflow: hidden;
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
 
 }
 
@@ -401,7 +413,7 @@
   border-radius: 20px;
   padding-top: 1rem;
   width: 20rem;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
   margin-top: 2rem;
   cursor: pointer;
@@ -409,6 +421,7 @@
   background-size: auto;
   background-position: center;
   background-position-y:5rem;
+  background-color: white;
 }
 
 :is(.acce_item, .acce_head){
@@ -417,8 +430,8 @@
 
 
 :is(.acce_item, .acce_head):hover{
-  transform: scale(1.02);
-  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+  transform: scale(1.01);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
 
 :is(.acce_item):hover{
@@ -492,7 +505,7 @@
   width: 7rem;
   margin: auto;
   position: relative;
-  top: 11rem;
+  top: 9rem;
 }
 
 .dot > span{
@@ -504,12 +517,32 @@
   opacity: 1;
 }
 
+.dot_w{
+  display: flex;
+  justify-content: space-evenly;
+  width: 4rem;
+  margin: auto;
+  position: relative;
+  top: 9rem;
+}
+
+.dot_w > span{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+  display: inline-block;
+  opacity: 1;
+}
+
+
 /* -----------AUDIO--------------- */
 
 
 .audio{
   overflow: hidden;
-
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
 }
 
 .audio > header {
@@ -560,12 +593,13 @@
 } 
 
 .audio_item {
+  background-color: white;
   float: right;
   height: 31rem;
   border-radius: 20px;
   padding-top: 1rem;
   width: 20rem;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   margin-top: 2rem;
   cursor: pointer;
@@ -582,7 +616,7 @@
 
 :is(.audio_item, .audio_head):hover{
   transform: scale(1.02);
-  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
 
 :is(.audio_item):hover{
@@ -650,13 +684,18 @@
 }
 
 .exPad > h3 {
+  padding-bottom: 2rem;
 }
 
 
-.au{
-  width: 4rem;
+.dot_au{
+  display: flex;
+  justify-content: space-evenly;
+  width: 3rem;
+  margin: auto;
+  position: relative;
+  top: 11rem;
 }
-
 
 .dot_hd{
   display: flex;
@@ -666,6 +705,38 @@
   position: relative;
   top: 11rem;
 }
+
+.dot_au > span{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+  display: inline-block;
+  opacity: 1;
+}
+
+
+
+.dot_n{
+  display: flex;
+  justify-content: space-evenly;
+  width: 7rem;
+  margin: auto;
+  position: relative;
+  top: 11rem;
+}
+
+
+.dot_n > span{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+  display: inline-block;
+  opacity: 1;
+}
+
+
 
 .dot_hd > img {
   height: 12px;

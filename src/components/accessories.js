@@ -69,7 +69,7 @@ const Accessories = () => {
             <h5>NEW</h5>
             <h3>41mm Mulberry Modern Buckle - Medium</h3>
             <p>MRP 14500.00 (incl. of all taxes)</p>
-            <div className="dot au">
+            <div className="dot_w">
               <span style={{backgroundColor: "#9DB2BF"}}></span>
               <span style={{backgroundColor: "#662549"}}></span>
               <span style={{backgroundColor: "#B0926A"}}></span>
