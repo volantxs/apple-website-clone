@@ -743,3 +743,192 @@
   width: 12px;
   box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
 }
+
+/* ------------HELP ------------------ */
+
+.help{
+  overflow: hidden;
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
+}
+
+.help > header {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(135, 135, 135);
+  position: relative;
+  left: 8.5%;
+}
+
+
+
+.help_one {
+  height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 30rem;
+  margin-left: 8rem;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-diwali-specialist-help-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696608687398");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.help_two {
+  height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 25rem;
+  margin-left: 8rem;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-business-202209_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661285670376");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+
+.help_three {
+  height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 30rem;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.help_four {
+  margin-left: 3rem;
+  height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 30rem;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.rowOne{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: -1rem ;
+  height: 80%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+.rowTwo{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 2rem;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rowTwo > p{
+  font-size: 17px;
+}
+
+.col-10{
+  width: 85%;
+}
+.col-2{
+  padding: 1rem;
+  width: 10%;
+}
+
+.button{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+}
+
+.play{
+cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  box-sizing: border-box;
+  position: relative;
+  background: none;
+  left: 6px;
+  top: -2px;
+  border-width: 7px 0px 7px 14px;
+  border-color: transparent transparent transparent grey;
+
+}
+
+
+
+:is(.help_one, .help_two, .help_three, .help_four, .help_five):hover{
+  transform: scale(1.02);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.help_one > h5 {
+  color: #2E97A7;
+  font-weight: 400;
+}
+
+.help_one > h1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  top: -1rem;
+  color: rgb(255, 243, 177);
+} 
+
+.help_two > h5 {
+  color: #7C81AD;
+  font-weight: 400;
+}
+
+.help_two > h1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  top: -1rem;
+  color: #F6F4EB;
+} 
+
+.rowOne > h5 {
+  color: #526D82;
+  font-weight: 400;
+}
+
+

@@ -8,6 +8,7 @@ import Latest from './components/latest';
 import Vision from './components/vision';
 import Accessories from './components/accessories';
 import Audio from './components/audio';
+import Help from './components/help';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   <Vision />
   <Accessories/>
   <Audio/>
+  <Help/>
   </Router>
   );
 }
