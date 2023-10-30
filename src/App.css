@@ -874,23 +874,20 @@
   border-radius: 50%;
   border: none;
   box-sizing: border-box;
+  background-color: rgb(221, 221, 221);
 }
 
 .play{
 cursor: pointer;
-  width: 15px;
-  height: 15px;
+  width: 0px;
+  height: 0px;
+  margin: 25%;
   border-style: solid;
-  box-sizing: border-box;
-  position: relative;
   background: none;
-  left: 6px;
-  top: -2px;
   border-width: 7px 0px 7px 14px;
-  border-color: transparent transparent transparent grey;
+  border-color: transparent transparent transparent rgb(92, 92, 92);
 
 }
-
 
 
 :is(.help_one, .help_two, .help_three, .help_four, .help_five):hover{
@@ -930,5 +927,124 @@ cursor: pointer;
   color: #526D82;
   font-weight: 400;
 }
+
+
+/* ------------EXPERIENCE---------------------- */
+
+.experience{
+  overflow: hidden;
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
+}
+
+.experience > header {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(135, 135, 135);
+  position: relative;
+  left: 8.5%;
+}
+
+
+
+.experience_item {
+  height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 30rem;
+  margin-left: 8rem;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.e_one {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696949431686");
+
+}
+
+.e_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626375547000");
+
+
+}
+
+
+.e_three {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-applecare-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692730497948");
+
+ 
+}
+
+.e_four {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202309_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1693758287672");
+}
+
+
+.experience_item:hover{
+  transform: scale(1.02);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.experience_item > h1 {
+  padding-right: 4rem;
+}
+
+.e_one > h5 {
+  color: #F6F4EB;
+  font-weight: 400;
+}
+
+:is(.e_four, .e_three) > h5 {
+  color: #526D82;
+  font-weight: lighter;
+}
+
+.e_four > h1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  top: -5px;
+}
+
+.e_three > h1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  top: -5px;
+}
+
+.e_three > p{
+  position: relative;
+  top: -1rem;
+  padding-right: 6rem;
+}
+
+.e_one > h1 {
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  color: #F6F4EB;
+  top: -5px;
+} 
+
+.e_two > h1{
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+  top: 2rem;
+}
+
 
 

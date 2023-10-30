@@ -9,6 +9,7 @@ import Vision from './components/vision';
 import Accessories from './components/accessories';
 import Audio from './components/audio';
 import Help from './components/help';
+import Experience from './components/experience';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   <Accessories/>
   <Audio/>
   <Help/>
+  <Experience/>
   </Router>
   );
 }

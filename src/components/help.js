@@ -14,21 +14,20 @@ const Help = () => {
           showDots={false} 
           >
             <div className="help_one ">
-            <h5>IPHONE 15</h5>
-            <h1>Newphoria</h1>
+            <h5>APPLE SPECIALIST</h5>
+            <h1>Find the perfect festive gift with a Specialist.</h1>
             </div>
             <div className="help_two ">
-            <h5>IPHONE 15 PRO</h5>
-            <h1>Titanium</h1>
+            <h5>BUSINESS</h5>
+            <h1>From enterprise to small business, we'll work with you</h1>
             </div>
             <div className="help_three ">
-            <h5>APPLE WATCH SERIES 9</h5>
-            <h1>Smarter. Brighter. Mightier</h1>
+            <h1>Get to know your new device with a free Personal Session.</h1>
             </div>
             <div className="help_four">
             <div className="rowOne">
-            <h5>APPLE WATCH ULTRA 2</h5>
-            <h1>Next-level adventure.</h1>
+            <h5>WATCH AND LEARN</h5>
+            <h1>Need support? Our teams are here for you.</h1>
             </div>
             <div className="rowTwo">
                 <div className="col-10">
@@ -45,14 +44,7 @@ const Help = () => {
             
            
             </div>
-            <div className="help_five ">
-            <h5>GREEN TECH</h5>
-            <h1>Shop carbon-neutral Apple Watch starps.</h1>
-            </div>
-            <div className="help_six ">
-            <h5>AVAILABLE EARLY NOVEMBER APPLE PENCIL</h5>
-            <h1>The most affordable Apple Pencil</h1>
-            </div>
+         
         </Carousel>
 
         </section>
@@ -66,11 +58,11 @@ const Help = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 3.02
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
-      items: 2
+      items: 1.93
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
