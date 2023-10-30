@@ -7,6 +7,7 @@ import Special from './components/special';
 import Latest from './components/latest';
 import Vision from './components/vision';
 import Accessories from './components/accessories';
+import Audio from './components/audio';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
   <Latest/>
   <Vision />
   <Accessories/>
+  <Audio/>
   </Router>
   );
 }

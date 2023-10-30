@@ -46,25 +46,12 @@ const Accessories = () => {
             <h5>FREE ENGRAVING</h5>
             <h3>AirTag</h3>
             <p>MRP 3490.00 (incl. of all taxes)</p>
-            <div className="dot">
-              <span style={{backgroundColor: "#B0578D"}}></span>
-              <span style={{backgroundColor: "#618264"}}></span>
-              <span style={{backgroundColor: "#C8AE7D"}}></span>
-              <span style={{backgroundColor: "#749BC2"}}></span>
-              <span style={{backgroundColor: "#7D7C7C"}}></span>
-            </div>
+            
             </div>
             <div className="acce_item a_five">
             <h5>NEW</h5>
             <h3>Apple TV 4K Wi-Fi with 64GB storage</h3>
             <p>MRP 14900.00 (incl. of all taxes)</p>
-            <div className="dot">
-              <span style={{backgroundColor: "#B0578D"}}></span>
-              <span style={{backgroundColor: "#618264"}}></span>
-              <span style={{backgroundColor: "#C8AE7D"}}></span>
-              <span style={{backgroundColor: "#749BC2"}}></span>
-              <span style={{backgroundColor: "#7D7C7C"}}></span>
-            </div>
             </div>
             <div className="acce_item a_six">
             <h5>NEW</h5>
@@ -82,12 +69,10 @@ const Accessories = () => {
             <h5>NEW</h5>
             <h3>41mm Mulberry Modern Buckle - Medium</h3>
             <p>MRP 14500.00 (incl. of all taxes)</p>
-            <div className="dot">
-              <span style={{backgroundColor: "#B0578D"}}></span>
-              <span style={{backgroundColor: "#618264"}}></span>
-              <span style={{backgroundColor: "#C8AE7D"}}></span>
-              <span style={{backgroundColor: "#749BC2"}}></span>
-              <span style={{backgroundColor: "#7D7C7C"}}></span>
+            <div className="dot au">
+              <span style={{backgroundColor: "#9DB2BF"}}></span>
+              <span style={{backgroundColor: "#662549"}}></span>
+              <span style={{backgroundColor: "#B0926A"}}></span>
             </div>
             </div>
         </Carousel>

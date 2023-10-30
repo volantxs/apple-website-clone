@@ -31,7 +31,6 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0px 4px 8px rgb(221, 221, 221);
-  
 }
 
 .navbar > span  {
@@ -41,9 +40,6 @@
   
 /* ---------------------------HERO--------------------- */
 
-.hero {
-  
-}
 
 .hero_header > p {
   text-align: center;
@@ -71,7 +67,6 @@
   /* display: flex;
   flex-wrap: row nowrap;
   justify-content: space-evenly; */
-  cursor: pointer;
 }
 
 
@@ -80,6 +75,7 @@
 }
 
 .slider_item {
+  cursor: pointer;
   text-align: center;
   font-weight:600;
   font-size: 14px;
@@ -93,7 +89,6 @@
 
 .special {
   overflow: hidden;
-  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -110,17 +105,36 @@
 }
 
 .special_item {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 31rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 25rem;
+  margin-left: 8rem;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.special_item {
   height: 31rem;
   box-sizing: border-box;
   border-radius: 20px;
   padding: 2rem;
-  padding-right: 3rem;
-
   width: 25rem;
   margin-left: 8rem;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
-  transition: transform 500ms;
+  margin-top: 1rem;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 500ms;
   cursor: pointer;
 }
 
@@ -192,7 +206,6 @@
 
 
 .latest_item {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 31rem;
   box-sizing: border-box;
   border-radius: 20px;
@@ -200,7 +213,7 @@
   padding-top: 1rem;
   width: 25rem;
   margin-left: 8rem;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
   margin-bottom: 2rem;
   margin-top: 2rem;
   background-size: 100%;
@@ -212,6 +225,7 @@
 
 .latest_item:hover{
   transform: scale(1.02);
+  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
   background-size: 107%;
   background-position-y: -20px ;
 }
@@ -339,11 +353,8 @@
   left: 8.5%;
 }
 
-.latest_slider{
-
-}
-
-.cara{
+.a_one{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-giftacc-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587624");
 }
 
 .acce_head{
@@ -356,7 +367,6 @@
   padding-right: 1rem;
   padding-top: 2rem;
   width: 25rem;
-  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-giftacc-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587624");
   background-repeat: no-repeat;
   margin-left: 8rem;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
@@ -395,6 +405,10 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-position-y:5rem;
 }
 
 :is(.acce_item, .acce_head){
@@ -442,51 +456,33 @@
 
 .a_two {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 .a_three {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994342983");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 
 .a_four {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-single-select-202104?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1617761671000");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 .a_five {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-hero-select-202210?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1664896361408");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 .a_six {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3G3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693593632903");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 .a_seven {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUH73ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692936516435");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-position-y:5rem;
+
 }
 
 
@@ -503,7 +499,165 @@
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  box-shadow: inset -1px 1px 5px rgba(39, 15, 2, 0.5) ;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
   display: inline-block;
   opacity: 1;
+}
+
+/* -----------AUDIO--------------- */
+
+
+.audio{
+  overflow: hidden;
+
+}
+
+.audio > header {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(135, 135, 135);
+  position: relative;
+  left: 8.5%;
+}
+
+.audio_head{
+  position: relative;
+  z-index: 1;
+  float: left;
+  height: 31rem;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  width: 25rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-music-202310?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1697210875904") ;
+  background-repeat: no-repeat;
+  margin-left: 8rem;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition: transform 500ms;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.audio_head > h5 {
+  color: rgb(255, 190, 111);
+  font-weight: 400;
+  position: relative;
+  top: -1rem;
+  
+}
+.audio_head > p {
+  color: rgb(255, 243, 177);
+  text-align: start;
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  top: -2rem;
+  line-height: 1.2;
+
+} 
+
+.audio_item {
+  float: right;
+  height: 31rem;
+  border-radius: 20px;
+  padding-top: 1rem;
+  width: 20rem;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-position-y:5rem;
+}
+
+:is(.audio_item, .audio_head){
+  transition: all 500ms;
+}
+
+
+:is(.audio_item, .audio_head):hover{
+  transform: scale(1.02);
+  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+}
+
+:is(.audio_item):hover{
+  background-position-y: 4rem ;
+}
+
+
+.audio_item > p {
+  font-size: 14px;
+}
+
+.audio_item > h3 {
+  font-size: 17px;
+  padding-bottom: 1rem;
+  text-overflow: ellipsis;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 2; 
+  overflow: hidden;
+}
+
+.audio_item > h5 {
+  color: #ca6404;
+  font-weight: 200;
+  font-size: 12px;
+  margin-bottom: -10px;
+}
+
+.audio_item :is(h5, h3, p) {
+  position: relative;
+  top: 20rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.u_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1694014871985");
+}
+
+.u_three{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1670557210097");
+}
+.u_four{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-orange-202110?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632925511000");
+}
+
+.u_five{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1604022365000");
+}
+
+.u_six{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1551489688005");
+}
+
+.u_seven{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1694014871985");
+}
+
+.au{
+  width: 4rem;
+}
+
+
+.dot_hd{
+  display: flex;
+  justify-content: space-evenly;
+  width: 7rem;
+  margin: auto;
+  position: relative;
+  top: 9rem;
+}
+
+.dot_hd > img {
+  height: 12px;
+  width: 12px;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
 }
