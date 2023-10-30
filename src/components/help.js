@@ -6,7 +6,7 @@ const Help = () => {
     return(
         <div className="help">
         <header>
-           <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
+           <span style={{color: "black"}}>Help is here.</span> Whenever and however you need it.
         </header>
         <section className="help_slider">
         <Carousel 

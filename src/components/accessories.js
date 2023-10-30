@@ -21,7 +21,7 @@ const Accessories = () => {
             <div className="acce_item a_two">
             <h5>NEW</h5>
             <h3>iPhone 15 Pro FineWoven Case with MagSafe - Taupe</h3>
-            <p>MRP 5900.00 (incl. of all taxes)</p>
+            <p>MRP ₹5900.00 (incl. of all taxes)</p>
             <div className="dot">
               <span style={{backgroundColor: "#B0578D"}}></span>
               <span style={{backgroundColor: "#618264"}}></span>
@@ -33,7 +33,7 @@ const Accessories = () => {
             <div className="acce_item a_three">
             <h5>NEW</h5>
             <h3>iPhone FineWoven Wallet with MagSafe - Mulberry</h3>
-            <p>MRP 5900.00 (incl. of all taxes)</p>
+            <p>MRP ₹5900.00 (incl. of all taxes)</p>
             <div className="dot">
               <span style={{backgroundColor: "#B0578D"}}></span>
               <span style={{backgroundColor: "#618264"}}></span>
@@ -45,18 +45,18 @@ const Accessories = () => {
             <div className="acce_item a_four">
             <h5>FREE ENGRAVING</h5>
             <h3>AirTag</h3>
-            <p>MRP 3490.00 (incl. of all taxes)</p>
+            <p>MRP ₹3490.00 (incl. of all taxes)</p>
             
             </div>
             <div className="acce_item a_five">
             <h5>NEW</h5>
             <h3>Apple TV 4K Wi-Fi with 64GB storage</h3>
-            <p>MRP 14900.00 (incl. of all taxes)</p>
+            <p>MRP ₹14900.00 (incl. of all taxes)</p>
             </div>
             <div className="acce_item a_six">
             <h5>NEW</h5>
             <h3>iPhone 15 FineWoven Case with MagSafe - Pacific Blue</h3>
-            <p>MRP 5900.00 (incl. of all taxes)</p>
+            <p>MRP ₹5900.00 (incl. of all taxes)</p>
             <div className="dot">
               <span style={{backgroundColor: "#B0578D"}}></span>
               <span style={{backgroundColor: "#618264"}}></span>
@@ -68,7 +68,7 @@ const Accessories = () => {
             <div className="acce_item a_seven" >
             <h5>NEW</h5>
             <h3>41mm Mulberry Modern Buckle - Medium</h3>
-            <p>MRP 14500.00 (incl. of all taxes)</p>
+            <p>MRP ₹14500.00 (incl. of all taxes)</p>
             <div className="dot_w">
               <span style={{backgroundColor: "#9DB2BF"}}></span>
               <span style={{backgroundColor: "#662549"}}></span>

@@ -6,7 +6,7 @@ const Audio = () => {
     return(
         <div className="audio">
         <header>
-           <span style={{color: "black"}}>Accesories.</span> Festive gift ideas.
+           <span style={{color: "black"}}>Loud and clear.</span> Audio that's in harmony with the festivies.
         </header>
         <section   className="audio_slider"  >
         <div className="audio_head">
@@ -20,11 +20,11 @@ const Audio = () => {
             <div className="audio_item u_two">
             <h5>FREE ENGRAVING</h5>
             <h3>AirPods Pro (2nd generation) with MagSafe Charging Case...</h3>
-            <p>MRP 24900.00 (incl. of all taxes)</p>
+            <p>MRP ₹24900.00 (incl. of all taxes)</p>
             </div>
             <div className="audio_item u_three exPad">
             <h3>HomePod - Midnight</h3>
-            <p>MRP 32900.00 (incl. of all taxes)</p>
+            <p>MRP ₹32900.00 (incl. of all taxes)</p>
             <div className="dot_au">
               <span style={{backgroundColor: "#45474B"}}></span>
               <span style={{backgroundColor: "#F5F5F5"}}></span>
@@ -32,7 +32,7 @@ const Audio = () => {
             </div>
             <div className="audio_item u_four exPad">
             <h3>HomePod min - Orange</h3>
-            <p>MRP 10900.00 (incl. of all taxes)</p>
+            <p>MRP ₹10900.00 (incl. of all taxes)</p>
             <div className="dot_n">
               <span style={{backgroundColor: "#45474B"}}></span>
               <span style={{backgroundColor: "#2E4374"}}></span>
@@ -43,7 +43,7 @@ const Audio = () => {
             </div>
             <div className="audio_item u_five exPad">
             <h3>AirPods Max - Sky Blue</h3>
-            <p>MRP 59900.00 (incl. of all taxes)</p>
+            <p>MRP ₹59900.00 (incl. of all taxes)</p>
             <div className="dot_hd">
                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-spacegray-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1604622935000" />
                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-pink-202011_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1603846873000" />
@@ -55,13 +55,13 @@ const Audio = () => {
             <div className="audio_item u_six">
             <h5>FREE ENGRAVING</h5>
             <h3>AirPods (3rd generation) with Lightning Charging Case</h3>
-            <p>MRP 19900.00 (incl. of all taxes)</p>
+            <p>MRP ₹19900.00 (incl. of all taxes)</p>
 
             </div>
             <div className="audio_item u_seven " >
             <h5>FREE ENGRAVING</h5>
             <h3>AirPods (2nd generation)</h3>
-            <p>MRP 12900.00 (incl. of all taxes)</p>
+            <p>MRP ₹12900.00 (incl. of all taxes)</p>
             </div>
         </Carousel>
         </div>

@@ -6,7 +6,7 @@ const Experience = () => {
     return(
         <div className="experience">
         <header>
-           <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
+           <span style={{color: "black"}}>The Apple experience.</span> Do even more with Apple products and services.
         </header>
         <section className="experience_slider">
         <Carousel 

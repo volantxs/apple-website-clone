@@ -5,7 +5,6 @@ import  {BsApple } from 'react-icons/bs';
 
 const Navbar = () => {
     return (
-
         <nav className='navbar'>
             <span>
                 <Link to="/" style={{color:"black", textDecoration: "none"}}><BsApple size={17} /></Link>

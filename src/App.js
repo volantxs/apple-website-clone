@@ -10,6 +10,7 @@ import Accessories from './components/accessories';
 import Audio from './components/audio';
 import Help from './components/help';
 import Experience from './components/experience';
+import Educators from './components/educators';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   <Audio/>
   <Help/>
   <Experience/>
+  <Educators/>
   </Router>
   );
 }
