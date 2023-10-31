@@ -17,23 +17,8 @@ const Educators = () => {
 
     </div>
     )
-   
 
 }
 
-const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 2.9
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 764 },
-      items: 1.3
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
 
 export default Educators;

@@ -857,9 +857,14 @@
   border-bottom-left-radius: 20px;
 }
 
-.rowTwo > p{
+.rowTwo > p {
   font-size: 17px;
 }
+ .rowOne > h1 {
+    text-align: start;
+    font-size: 26px;
+ }
+
 
 .col-10{
   width: 85%;
@@ -887,13 +892,14 @@ cursor: pointer;
   background: none;
   border-width: 7px 0px 7px 14px;
   border-color: transparent transparent transparent rgb(92, 92, 92);
-
 }
-
 
 :is(.help_one, .help_two, .help_three, .help_four, .help_five):hover{
   transform: scale(1.02);
   box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+:is(.help_one, .help_two, .help_three, .rowOne, .help_five) > h1{
+padding-right: 1rem;
 }
 
 .help_one > h5 {
@@ -903,12 +909,21 @@ cursor: pointer;
 
 .help_one > h1 {
   text-align: start;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   position: relative;
   top: -1rem;
   color: rgb(255, 243, 177);
 } 
+
+.help_three > h1{
+  text-align: start;
+  font-size: 26px;
+  font-weight: 600;
+  position: relative;
+  top: 23px;
+}
+
 
 .help_two > h5 {
   color: #7C81AD;
@@ -917,7 +932,7 @@ cursor: pointer;
 
 .help_two > h1 {
   text-align: start;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   position: relative;
   top: -1rem;
@@ -1099,3 +1114,40 @@ cursor: pointer;
   position: relative;
   top: -5px;
 } 
+
+/* -------------PreFooter--------------- */
+
+.preFooter{
+  overflow: hidden;
+  margin-left: 8rem;
+}
+
+.preFooter > header {
+  font-size: 13px;
+}
+
+.content{
+  margin-bottom: 3rem;
+}
+
+.content > button{
+  font-size: 14px;
+  background-color: rgb(232, 232, 232);
+  margin-right: 1rem;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.tc{
+}
+
+pre{
+  text-align: left;
+  text-decoration: none;
+  margin: 0 16rem 0 8rem;
+  text-wrap: wrap;
+  font-size: 12px;
+  color: grey;
+}

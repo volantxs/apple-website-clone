@@ -11,6 +11,7 @@ import Audio from './components/audio';
 import Help from './components/help';
 import Experience from './components/experience';
 import Educators from './components/educators';
+import PreFooter from './components/pre-footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   <Help/>
   <Experience/>
   <Educators/>
+  <PreFooter/>
   </Router>
   );
 }
