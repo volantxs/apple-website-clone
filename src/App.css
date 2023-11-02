@@ -1151,3 +1151,53 @@ pre{
   font-size: 12px;
   color: grey;
 }
+
+hr{
+  width: 63rem;
+  margin: 1rem 16rem 1rem 8rem;
+  border: 1px solid rgb(222, 222, 222);
+}
+
+/* FOOTER */
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.col-3{
+  width: 20%;
+}
+
+.col-3 > dl{
+  font-size: 12px;
+  color: rgb(81, 80, 80);
+  text-align: start;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+}
+
+dd:first-child{
+  color: rgb(105, 105, 105);
+  font-weight: 600;
+}
+
+dd{
+  cursor: pointer;
+  margin: 10px;
+}
+
+dd:hover{
+  text-decoration: underline;
+}
+
+dd:first-child:hover{
+  text-decoration: none;
+  cursor:auto;
+}
+
+.links{
+  width: 64rem;
+  margin: auto;
+}

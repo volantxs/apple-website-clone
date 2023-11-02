@@ -12,6 +12,7 @@ import Help from './components/help';
 import Experience from './components/experience';
 import Educators from './components/educators';
 import PreFooter from './components/pre-footer';
+import Footer from './components/footer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   <Experience/>
   <Educators/>
   <PreFooter/>
+  <Footer/>
   </Router>
   );
 }
