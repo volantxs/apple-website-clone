@@ -1120,6 +1120,7 @@ padding-right: 1rem;
 .preFooter{
   overflow: hidden;
   margin-left: 8rem;
+
 }
 
 .preFooter > header {
@@ -1154,27 +1155,28 @@ pre{
 
 hr{
   width: 63rem;
-  margin: 1rem 16rem 1rem 8rem;
+  margin: auto;
   border: 1px solid rgb(222, 222, 222);
 }
 
-/* FOOTER */
+/* ---------------FOOTER -----------------*/
+footer{
+  width: 74rem;
+  margin: auto;
+  font-size: 12px;
+  color: rgb(105, 105, 105);
+}
+
 .row{
   display: flex;
   justify-content: space-evenly;
   align-items: start;
 }
 
-.col-3{
-  width: 20%;
-}
-
 .col-3 > dl{
-  font-size: 12px;
   color: rgb(81, 80, 80);
   text-align: start;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-
 
 }
 
@@ -1197,7 +1199,41 @@ dd:first-child:hover{
   cursor:auto;
 }
 
-.links{
-  width: 64rem;
-  margin: auto;
+
+.endnote{
+  display: flex;
+  justify-content: start;
+  
+}
+
+.endnote > ul{
+  list-style-type: none;
+}
+
+.endnote > ul > li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li > span{
+  color: #7C81AD;
+  padding: 1rem;
+}
+
+a{
+  color: rgb(0, 119, 255);
+}
+
+p.end{
+  text-align: end;
+  margin-left: 15rem;
+}
+p.end:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postFooter{
+ width: 63rem;
+ margin: auto;
 }

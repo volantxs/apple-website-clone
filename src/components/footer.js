@@ -1,6 +1,7 @@
 const Footer = () => {
     return (
         <footer>
+            <br/><hr/>
             <div className="links">
                 <div className="row">
                 <div className="col-3"> 
@@ -91,8 +92,22 @@ const Footer = () => {
                 </dl>  
                 </div>
                 </div>
-
             </div>
+            <div className="postFooter">
+                    <p>More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/">other retailer</a> near you. Or call 000800 040 1966.</p>
+                <hr/>
+                <div className="endnote">
+                <p>Copyright 2023 Apple Inc. All rights reserved</p>
+                <ul className="row">
+                    <li>Privacy Policy<span>|</span></li>
+                    <li>Terms of Use<span>|</span></li>
+                    <li>Sales Policy<span>|</span></li>
+                    <li>Legal<span>|</span></li>
+                    <li>Site Map</li>
+                </ul>
+                <p className="end">India</p>
+                </div>
+                </div>
 
             
         </footer>

@@ -33,7 +33,6 @@ const PreFooter = () => {
 <br/><br/>‡ Listed pricing is Maximum Retail Price (inclusive of all taxes).
 
 <br/><br/>We use your location to show you delivery options faster. We found your location using your IP address or because you entered it during a previous visit to Apple.</pre>
-<hr/>
             </div>
         </div>
     )
