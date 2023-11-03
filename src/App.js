@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './global.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
@@ -18,18 +18,21 @@ import Footer from './components/footer';
 function App() {
   return (
   <Router>
-  <Navbar/>
-  <Hero/>
-  <Special/>
-  <Latest/>
-  <Vision />
-  <Accessories/>
-  <Audio/>
-  <Help/>
-  <Experience/>
-  <Educators/>
-  <PreFooter/>
-  <Footer/>
+    <div className='app'>
+    <Navbar/>
+    <Hero/>
+    <Special/>
+    <Latest/>
+    <Vision />
+    <Accessories/>
+    <Audio/>
+    <Help/>
+    <Experience/>
+    <Educators/>
+    <PreFooter/>
+    <Footer/>
+    </div>
+
   </Router>
   );
 }

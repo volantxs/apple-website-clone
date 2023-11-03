@@ -40,13 +40,13 @@
   color: black;
 }
 
+.app{}
   
 /* ---------------------------HERO--------------------- */
 
 .hero{
   overflow: hidden;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin: auto;
 }
 
 .hero_header > p {
@@ -57,10 +57,11 @@
 .hero_section > h1 {
   font-size: 3rem;
   font-weight: 100;
-  position: relative;
-  top: 6rem;
   color: rgb(135, 135, 135);
-  margin-bottom: 11rem;
+  margin-bottom: 6rem;
+  margin-top: 11rem;
+  position: relative;
+  left: 8rem;
   width: 50rem;
   left: 8.5%;
 }
@@ -71,10 +72,12 @@
 }
 
 .hero_slider {
-  /* overflow: auto; */
-  /* display: flex;
-  flex-wrap: row nowrap;
-  justify-content: space-evenly; */
+  /* position: relative;
+  left: 8rem;
+  margin-bottom: 3rem; */
+  width: 97%;
+  position: relative;
+  left: 6rem;
   cursor: pointer;
 
 }
@@ -89,8 +92,8 @@
   text-align: center;
   font-weight:600;
   font-size: 14px;
-  position: relative;
-  left: 6rem;
+  /* position: relative; */
+  /* left: 6rem; */
 }
 
 
@@ -103,12 +106,12 @@
   padding-bottom: 2rem;
 }
 
-.special_header {
+.special > header {
   font-size: 28px;
   font-weight: 600;
   color: rgb(135, 135, 135);
   position: relative;
-  left: 8.5%;
+  left: 8rem;
 }
 
 .special_slider {
@@ -116,14 +119,14 @@
 }
 
 .special_item {
-   height: 31rem;
+  height: 31rem;
   box-sizing: border-box;
   border-radius: 20px;
-  padding: 2rem;
   width: 25rem;
   margin-left: 8rem;
+  padding: 2rem;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 1rem;
   background-size: 100%;
   background-position: center center;
@@ -132,49 +135,33 @@
   cursor: pointer;
 }
 
-.special_item {
-  height: 31rem;
-  box-sizing: border-box;
-  border-radius: 20px;
-  padding: 2rem;
-  width: 25rem;
-  margin-left: 8rem;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  background-size: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  transition: all 500ms;
-  cursor: pointer;
-}
 
 .special_item:hover {
   transform: scale(1.02);
 }
 
-.one{
+.s_one{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
   background-repeat: no-repeat;
 }
-.two{
+.s_two{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-iphone-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587681");
   background-repeat: no-repeat;
 }
-.three{
+.s_three{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-mac-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589457");
   background-repeat: no-repeat;
 }
-.four{
+.s_four{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-ipad-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587575");
   background-repeat: no-repeat;
 }
-.five{
+.s_five{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-watch-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589863");
   background-repeat: no-repeat;
 }
 
-.six{
+.s_six{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-todayatapple-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589579");
   background-repeat: no-repeat;
 }
@@ -182,8 +169,8 @@
 .special_item > h5 {
   color: rgb(255, 190, 111);
   font-weight: 400;
-  position: relative;
-  top: -1rem;
+  /* position: relative; */
+  /* top: -1rem; */
   
 }
 .special_item > p {
@@ -197,6 +184,15 @@
 
 } 
 
+.special_item > h1{
+  text-align: start;
+  font-size: 25px;
+  font-weight: 600;
+  /* position: relative; */
+  /* top: -2rem; */
+  color: rgb(255, 243, 177);
+
+}
 
 /* -------------LATEST------------------ */
 
@@ -242,7 +238,10 @@
 }
 
 .latest_item > h5 {
+  color: rgb(255, 190, 111);
   font-weight: 400;
+  /* position: relative; */
+  /* top: -1rem; */
 }
 
 .latest_item > h1 {

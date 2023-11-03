@@ -2,15 +2,15 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const Special = () => {
+
     return(
         <div className="special">
         <header>
-        <span style={{color: "black"}}>Festive specials.</span> All the reasons to rejoice
+           <p><span style={{color: "black"}}>Festive specials.</span> All the reasons to rejoice</p>
         </header>
         <section className="special_slider">
         <Carousel 
           responsive={responsive} 
-          showDots={false} 
           >
             <div className="special_item s_one">
             <h5>FESTIVE OFFER</h5>
@@ -54,7 +54,7 @@ Customise it the way you want.</h1>
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.6
+      items: 3.5
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },

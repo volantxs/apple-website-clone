@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 14px; 
+    font-size: 13px;
+    width: 68%;
+    position: fixed;
+    left: 16%;
+    top: 0%;
+    z-index: 2;
+    border: 1px solid rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); */
+  }
+
+
+  .hero, .special, .latest{
+    overflow: hidden;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .hero{
+    /* margin: auto; */
+  }
+
+  .hero_header > p {
+    text-align: center;
+    color: #cc8b08;
+  }
+
+  .hero_section > h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(135, 135, 135);
+    margin-bottom: 6rem;
+    margin-top: 11rem;
+    position: relative;
+    left: 8rem;
+    width: 50rem;
+    left: 8.5%;
+  }
+  
+  .hero_section > h1 > span {
+    color: black;
+    font-weight: 600;
+  }
+  
+  .hero_slider {
+    /* position: relative;
+    left: 8rem;
+    margin-bottom: 3rem; */
+    width: 97%;
+    position: relative;
+    left: 6rem;
+    cursor: pointer;
+  
+  }
+  
+  .hero_item > img {
+    max-height: 5rem;
+  
+  }
+  
+  .hero_item {
+    text-align: center;
+    font-weight:600;
+    font-size: 14px;
+    /* position: relative; */
+    /* left: 6rem; */
+  }
+  
+  /* --------------------------------------------------------------------------------- */
+
+  :is(.special, .latest) > header{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(135, 135, 135);
+    position: relative;
+    left: 9rem;
+  }
+
+  .special_slider, .latest_slider{
+ 
+  }
+
+  .special_item, .latest_item {
+    height: 31rem;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 25rem;
+    position: relative;
+    left: 3rem;
+    margin: 2rem 0rem 0rem 6rem;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 500ms;
+    cursor: pointer;
+  }
+
+  :is(.special_item, .latest_item):hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  }
+
+  .latest_item:hover{
+    background-size: 107%;
+    background-position-y: -20px ;
+  }
+
+  :is(.special_item, .latest_item) > h5 {
+    color: rgb(255, 190, 111);
+    font-weight: 400;
+    position: relative;
+    /* top: -2rem; */
+  }
+  
+
+  .latest_item > p{
+    font-size: 17px;
+    position: relative;
+    top: -1rem;
+    font-weight: 100;
+  }
+
+  :is(.latest_item, .special_item) > h1{
+    text-align: start;
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+    top: -6px;
+  }
+
+  .special_item > h1{
+    color: rgb(255, 243, 177);
+  }
+
+
+
+
+  /* ---------------------------------- IMAGES*/
+  
+  .s_one{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
+  }
+  .s_two{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-iphone-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587681");
+  }
+  .s_three{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-mac-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589457");
+  }
+  .s_four{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-ipad-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587575");
+  }
+  .s_five{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-watch-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589863");
+  }
+  .s_six{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-todayatapple-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761589579");
+  }
+
+  
+.l_one {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220");
+  color: black;
+}
+
+.l_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844");
+  color: white;
+}
+
+.l_three {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693501324197");
+  color: white;
+}
+.l_four {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1693861933617");
+}
+.l_five {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watchbands-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692720583186");
+}
+.l_six {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-pencil-202310_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696886305326");
+}
