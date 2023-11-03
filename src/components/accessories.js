@@ -11,7 +11,7 @@ const Accessories = () => {
         <section   className="latest_slider"  >
         <div className="acce_head a_one">
         <h5>FABULOUSLY FESTIVE</h5>
-            <p>Curated accessories to spread joy.</p>
+            <h1>Curated accessories to spread joy.</h1>
             </div>
             <div className="cara">
 
