@@ -3,15 +3,14 @@ import "react-multi-carousel/lib/styles.css";
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <section>
             {/* <header className="hero_header">
             <p>Save up to ₹10000.00 instantly on eligible products 
                 with HDFC Bank Credit Cards. Footnote §§</p>
             </header> */}
-            <section className="hero_section">
+            <div className="hero_section">
                 <h1><span>Store.</span> Brighten the season with products you love.</h1>
-            </section>
-            {/* <section className="hero_slider"> */}
+            </div>
                 <Carousel responsive={responsive} 
                 className="hero_slider"
                 >
@@ -61,8 +60,7 @@ const Hero = () => {
                     <p>Accessories</p>
                 </div>
                 </Carousel>
-            {/* </section> */}
-        </div>
+        </section>
     )
 }
 

@@ -9,11 +9,11 @@ import { HiOutlineTruck } from "react-icons/hi2"
 const Vision = () => {
 
     return(
-        <div className="latest">
+        <section>
         <header>
            <span style={{color: "black"}}>The Apple Store difference.</span> Even more reasons to shop with us.
         </header>
-        <section className="vision_slider">
+        <div className="vision_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
@@ -44,9 +44,9 @@ const Vision = () => {
             </div>
         </Carousel>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 

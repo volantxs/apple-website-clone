@@ -5,33 +5,51 @@
     font-family: Inter, sans-serif;
   }
   
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 14px; 
-    font-size: 13px;
-    width: 68%;
-    position: fixed;
-    left: 16%;
-    top: 0%;
-    z-index: 2;
-    border: 1px solid rgb(234, 234, 234);
-    background: rgb(255, 255, 255);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); */
+  @media only screen and (min-width: 310px){
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      padding: 14px; 
+      font-size: 13px;
+      width: 100%;
+      top: 0%;
+      z-index: 2;
+      border: 1px solid rgb(234, 234, 234);
+      background: rgb(255, 255, 255);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 700px){
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      padding: 14px; 
+      font-size: 13px;
+      width: 68%;
+      position: fixed;
+      left: 16%;
+      top: 0%;
+      z-index: 2;
+      border: 1px solid rgb(234, 234, 234);
+      background: rgb(255, 255, 255);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
   }
 
 
-  .hero, .special, .latest, .vision, .acce{
+
+  section{
     overflow: hidden;
     padding: 1rem;
-  }
-
-  .hero{
-    /* margin: auto; */
   }
 
   .hero_header > p {
@@ -78,7 +96,7 @@
   
   /* --------------------------------------------------------------------------------- */
 
-  :is(.special, .latest, .acce) > header{
+  section > header{
     font-size: 28px;
     font-weight: 600;
     color: rgb(135, 135, 135);
@@ -90,9 +108,10 @@
  
   }
 
-  .special_item, .latest_item, .vision_item, .acce_head, .acce_item {
+  .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
     border-radius: 20px;
     padding: 10px 30px;
+    position: relative;
     margin: 2rem 0rem 2rem 9rem;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
     background-size: 100%;
@@ -102,68 +121,121 @@
     cursor: pointer;
   }
 
-  .special_item, .latest_item, .acce_head{
+  .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
     height: 31rem;
     width: 25rem;
   }
+
+
+.audio_head{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-music-202310?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1697210875904") ;
+
+}
 
   .vision_item {
     height: 15rem;
     width: 20rem;
   }
 
+  .acce_item, .audio_item {
+    float: right;
+    height: 31rem;
+    border-radius: 20px;
+    padding-top: 1rem;
+    width: 20rem;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-position-y:5rem;
+    background-color: white;
+    transition: all 500ms ;
+  }
+
+  .help_one, .help_three, .help_four, .experience_item {
+    height: 31rem;
+    width: 30rem;
+  }
 
 
-  :is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item):hover {
+  .help_two {
+    height: 31rem;
+    width: 25rem;
+  }
+
+  :is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item, .audio_head, .audio_item, .help_one, .help_two, .help_three, .help_four, .help_five, .experience_item, .edu_item):hover {
     transform: scale(1.02);
     box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
   }
 
-  .acce_item{
+  :is(.acce_item, .audio_item):hover{
   background-position-y: 4rem ;
   }
 
-  .acce_head{
+  .acce_head, .audio_head{
     position: relative;
     z-index: 1;
     float: left;
   }
 
-  .acce_item{
-    height: 31rem;
-    width: 20rem;
-    float: right;
-    background-size: auto;
-    background-position-y:5rem;
-    background-color: white;
-  }
-
-  .acce_item > p {
+  :is(.acce_item, .audio_item) > p {
     font-size: 14px;
   }
-
 
   .latest_item:hover{
     background-size: 107%;
     background-position-y: -20px ;
   }
 
-  :is(.special_item, .latest_item, .acce_head, .acce_item) > h5 {
-    color: rgb(255, 190, 111);
+  :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
     font-weight: 400;
     position: relative;
-    /* top: -2rem; */
   }
+
+  :is(.special_item, .latest_item, .acce_head, .audio_head) > h5 {
+    color: rgb(255, 190, 111);
+  }
+
+  .help_one{
+  color: #2E97A7;
+  }
+
+.help_two > h5 {
+  color: #7C81AD;
+}
+
+.e_one{
+  color: #F6F4EB;
+
+}
+
+.e_one > h5{
+  color: #F6F4EB;
+}
+
+:is(.e_four, .e_three) > h5 {
+  color: #526D82;
+}
+
+.e_three > p{
+  position: relative;
+  top: -1rem;
+  padding-right: 6rem;
+}
+
   
 
-  :is(.latest_item, .acce_head) > p{
+  :is(.latest_item) > p{
     font-size: 17px;
     position: relative;
     top: -1rem;
     font-weight: 100;
   }
 
-  :is(.latest_item, .special_item, .acce_head) > h1{
+  :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
     text-align: start;
     font-size: 27px;
     font-weight: 600;
@@ -171,11 +243,16 @@
     top: -6px;
   }
 
-  .special_item > h1{
+  :is(.special_item, .help_one) > h1{
     color: rgb(255, 243, 177);
   } 
-  .acce_head > h1{
+
+  :is(.acce_head, .audio_head) > h1{
     color: rgb(255, 243, 177);
+  }
+
+  .help_two{
+  color: #F6F4EB;
   }
 
   .vision_item > h1 {
@@ -193,15 +270,168 @@
     margin-top: 1rem;
   }
 
+  :is(.acce_item, .audio_item) > h5 {
+    color: #ca6404;
+    font-weight: 200;
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
   
-.acce_item > h3 {
+:is(.acce_item, .audio_item) > h3 {
   font-size: 17px;
   padding-bottom: 1rem;
 }
 
 
+.a_four > h3 {
+  padding-bottom: 37px;
+}
 
-  /* ---------------------------------- IMAGES*/
+:is(.acce_item, .audio_item) :is(h5, h3, p) {
+  position: relative;
+  top: 20rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dot, .dot_w, .dot_au, .dot_hd, .dot_n{
+  display: flex;
+  justify-content: space-evenly;  
+  margin: auto;
+  position: relative;
+}
+
+.dot{
+  width: 7rem;
+  top: 9rem;
+}
+
+:is(.dot, .dot_w, .dot_au, .dot_n) > span{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+  display: inline-block;
+  opacity: 1;
+}
+
+.dot_w{
+  width: 4rem;
+  top: 9rem;
+}
+
+
+.exPad :is(h5, h3, p) {
+  position: relative;
+  top: 22rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.exPad > h3 {
+  padding-bottom: 2rem;
+}
+
+
+.dot_au{
+  width: 3rem;
+  top: 11rem;
+}
+
+.dot_hd{
+  width: 7rem;
+  top: 11rem;
+}
+
+.dot_n{
+  width: 7rem;
+  top: 11rem;
+}
+
+.dot_hd > img {
+  height: 12px;
+  width: 12px;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+}
+
+.help_four{
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-left: 4rem;
+
+}
+
+.help_three{
+  margin-left: 4rem;
+}
+
+.rowOne{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: -1rem ;
+  height: 80%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rowTwo{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 2rem;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rowTwo > p {
+  font-size: 17px;
+}
+ .rowOne > h1 {
+    text-align: start;
+    font-size: 26px;
+ }
+ :is(.rowOne, .edu_item) > h5 {
+  color: #526D82;
+  font-weight: 400;
+}
+
+
+.col-10{
+  width: 85%;
+}
+.col-2{
+  padding: 1rem;
+  width: 10%;
+}
+
+.button{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(221, 221, 221);
+}
+
+.play{
+cursor: pointer;
+  width: 0px;
+  height: 0px;
+  margin: 25%;
+  border-style: solid;
+  background: none;
+  border-width: 7px 0px 7px 14px;
+  border-color: transparent transparent transparent rgb(92, 92, 92);
+}
+
+
+
+  /* -------------------------------------------------------------------- IMAGES*/
   
   .s_one{
     background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-festive-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761585206");
@@ -271,4 +501,233 @@
 }
 .v_six {
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-17-diwali-difference-tradein-202310?wid=313&hei=240&fmt=jpeg&qlt=95&.v=1696281489379");
+}
+
+
+
+
+
+.a_one{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-giftacc-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1695761587624");
+}
+
+.a_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616");
+
+}
+
+.a_three {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994342983");
+
+}
+
+
+.a_four {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-single-select-202104?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1617761671000");
+
+}
+
+.a_five {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-hero-select-202210?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1664896361408");
+
+}
+
+.a_six {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3G3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693593632903");
+
+}
+
+.a_seven {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUH73ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692936516435");
+
+}
+
+
+
+
+
+.u_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1694014871985");
+}
+
+.u_three{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1670557210097");
+}
+.u_four{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-orange-202110?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632925511000");
+}
+
+.u_five{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-skyblue-202011?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1604022365000");
+}
+
+.u_six{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1551489688005");
+}
+
+.u_seven{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1694014871985");
+}
+
+.u_seven > h3 {
+  padding-bottom: 37px;
+}
+
+
+.help_one{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-diwali-specialist-help-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696608687398");
+}
+
+.help_two{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-business-202209_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661285670376");
+}
+
+.help_three{
+background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-50-personal-session-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1630612234000");
+}
+
+
+
+.e_one {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696949431686");
+
+}
+
+.e_two {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626375547000");
+}
+
+.e_three {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-applecare-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692730497948");
+}
+
+.e_four {
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202309_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1693758287672");
+}
+
+
+.edu_item{
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-card-40-education-202108_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627664718000");
+
+}
+
+
+
+/* ------------------------------------------------------------------ */
+
+.preFooter{
+  overflow: hidden;
+  margin-left: 8rem;
+}
+
+.preFooter > header {
+  font-size: 13px;
+}
+
+.content{
+  margin-bottom: 3rem;
+}
+
+.content > button{
+  font-size: 14px;
+  background-color: rgb(232, 232, 232);
+  margin-right: 1rem;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+pre{
+  text-align: left;
+  text-decoration: none;
+  margin: 0 16rem 0 8rem;
+  text-wrap: wrap;
+  font-size: 12px;
+  color: grey;
+}
+
+hr{
+  width: 63rem;
+  margin: auto;
+  border: 1px solid rgb(222, 222, 222);
+}
+
+/* ---------------FOOTER -----------------*/
+footer{
+  width: 74rem;
+  margin: auto;
+  font-size: 12px;
+  color: rgb(105, 105, 105);
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.col-3 > dl{
+  color: rgb(81, 80, 80);
+  text-align: start;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+dd:first-child{
+  color: rgb(105, 105, 105);
+  font-weight: 600;
+}
+
+dd{
+  cursor: pointer;
+  margin: 10px;
+}
+
+dd:hover{
+  text-decoration: underline;
+}
+
+dd:first-child:hover{
+  text-decoration: none;
+  cursor:auto;
+}
+
+
+.endnote{
+  display: flex;
+  justify-content: start;
+  
+}
+
+.endnote > ul{
+  list-style-type: none;
+}
+
+.endnote > ul > li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li > span{
+  color: #7C81AD;
+  padding: 1rem;
+}
+
+a{
+  color: rgb(0, 119, 255);
+}
+
+p.end{
+  text-align: end;
+  margin-left: 15rem;
+}
+p.end:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postFooter{
+ width: 63rem;
+ margin: auto;
 }

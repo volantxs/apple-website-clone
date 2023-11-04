@@ -4,11 +4,11 @@ import "react-multi-carousel/lib/styles.css";
 const Accessories = () => {
 
     return(
-        <div className="acce">
+        <section>
         <header>
            <span style={{color: "black"}}>Accesories.</span> Festive gift ideas.
         </header>
-        <section   className="latest_slider"  >
+        <div   className="latest_slider"  >
         <div className="acce_head a_one">
         <h5>FABULOUSLY FESTIVE</h5>
             <h1>Curated accessories to spread joy.</h1>
@@ -77,9 +77,9 @@ const Accessories = () => {
             </div>
         </Carousel>
         </div>
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 
@@ -88,7 +88,7 @@ const Accessories = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2.9
+      items: 2.8
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },

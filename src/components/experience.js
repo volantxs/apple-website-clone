@@ -4,11 +4,11 @@ import "react-multi-carousel/lib/styles.css";
 const Experience = () => {
 
     return(
-        <div className="experience">
+        <section>
         <header>
            <span style={{color: "black"}}>The Apple experience.</span> Do even more with Apple products and services.
         </header>
-        <section className="experience_slider">
+        <div className="experience_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
@@ -36,9 +36,9 @@ const Experience = () => {
          
         </Carousel>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 

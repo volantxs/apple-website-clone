@@ -3,11 +3,11 @@ import "react-multi-carousel/lib/styles.css";
 
 const Special = () => {
     return(
-        <div className="special">
+        <section>
         <header>
         <span style={{color: "black"}}>Festive specials.</span> All the reasons to rejoice
         </header>
-        <section className="special_slider">
+        <div className="special_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
@@ -43,9 +43,9 @@ Customise it the way you want.</h1>
             </div>
         </Carousel>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 

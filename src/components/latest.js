@@ -4,11 +4,11 @@ import "react-multi-carousel/lib/styles.css";
 const Latest = () => {
 
     return(
-        <div className="latest">
+        <section>
         <header>
            <span style={{color: "black"}}>The latest.</span> Usher in new arrivals to the celebration.
         </header>
-        <section className="latest_slider">
+        <div className="latest_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
@@ -45,9 +45,9 @@ const Latest = () => {
             </div>
         </Carousel>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 

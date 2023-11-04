@@ -4,11 +4,11 @@ import "react-multi-carousel/lib/styles.css";
 const Help = () => {
 
     return(
-        <div className="help">
+        <section>
         <header>
            <span style={{color: "black"}}>Help is here.</span> Whenever and however you need it.
         </header>
-        <section className="help_slider">
+        <div className="help_slider">
         <Carousel 
           responsive={responsive} 
           showDots={false} 
@@ -47,9 +47,9 @@ const Help = () => {
          
         </Carousel>
 
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 
@@ -58,7 +58,7 @@ const Help = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.02
+      items:  3
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },

@@ -4,14 +4,14 @@ import "react-multi-carousel/lib/styles.css";
 const Audio = () => {
 
     return(
-        <div className="audio">
+        <section>
         <header>
            <span style={{color: "black"}}>Loud and clear.</span> Audio that's in harmony with the festivies.
         </header>
-        <section   className="audio_slider"  >
+        <div   className="audio_slider"  >
         <div className="audio_head">
         <h5>APPLE MUSIC OFFER</h5>
-            <p>Get Apple Music Free for 6 months with Homepod anf Airpods.</p>
+            <h1>Get Apple Music Free for 6 months with Homepod and Airpods.</h1>
             </div>
             <div className="cara">
         <Carousel 
@@ -65,9 +65,9 @@ const Audio = () => {
             </div>
         </Carousel>
         </div>
-        </section>
+        </div>
 
-    </div>
+    </section>
     )
    
 
@@ -76,7 +76,7 @@ const Audio = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2.9
+      items: 2.8
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
