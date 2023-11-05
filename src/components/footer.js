@@ -1,8 +1,21 @@
 const Footer = () => {
+
+    function openDropdown(e) {
+        e.preventDefault();
+        let uList = e.currentTarget.parentElement.children[1];
+        if (uList.style.display = "none") {
+            uList.style.display = "block"
+        }
+        else if (uList.style.display = "none") {
+            uList.style.display = "none"
+        }
+    }
+
     return (
-        <footer>
+        <>
+        {/* <footer>
             <br/><hr/>
-            <div className="links">
+            <div className="footer_desktop">
                 <div className="row">
                 <div className="col-3"> 
                 <dl>
@@ -110,7 +123,28 @@ const Footer = () => {
                 </div>
 
             
+        </footer> */}
+        <footer className="mobile">
+            <br/><hr/>
+            <div className="dropdown">
+            Shop and Learn 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                    <li>AirPods</li>
+                    <li>TV & Home</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
         </footer>
+        </>
     )
 }
 

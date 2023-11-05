@@ -14,18 +14,73 @@
       justify-content: space-around;
       padding: 14px; 
       font-size: 13px;
-      width: 100%;
-      top: 0%;
       z-index: 2;
       border: 1px solid rgb(234, 234, 234);
       background: rgb(255, 255, 255);
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
     }
+
+    .hero_section > h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: rgb(135, 135, 135);
+      margin-left: 1rem;
+    }
+
+    .hero_slider {
+      cursor: pointer;
+      margin-left: 1rem;
+
+    }
+
+    section > header{
+      font-size: 28px;
+      font-weight: 600;
+      color: rgb(135, 135, 135);
+      margin-left: 1rem;
+    }
+
+    .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+      border-radius: 20px;
+      padding: 10px 30px;
+      position: relative;
+      margin: 2rem 0rem 2rem 1rem;
+      box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: all 500ms;
+      cursor: pointer;
+    }
+
+    .preFooter, footer{
+      overflow: hidden;
+      margin-left: 1rem;
+    }
+
+    pre{
+      text-align: left;
+      text-decoration: none;
+      text-wrap: wrap;
+      font-size: 12px;
+      color: grey;
+    }
+
+    hr{
+      overflow: hidden;
+      margin-left: 2rem;
+      border: 1px solid rgb(222, 222, 222);
+    }
+
+    div.dropdown > ul{
+      display: none;
+    }
+    
+    
   }
 
   @media only screen and (min-width: 700px){
-
     .navbar {
       display: flex;
       flex-direction: row;
@@ -46,7 +101,6 @@
   }
 
 
-
   section{
     overflow: hidden;
     padding: 1rem;
@@ -57,58 +111,48 @@
     color: #cc8b08;
   }
 
-  .hero_section > h1 {
+  /* .hero_section > h1 {
     font-size: 3rem;
     font-weight: 100;
     color: rgb(135, 135, 135);
     margin: 11rem 0rem 6rem 8rem;
     width: 40rem;
     left: 8.5%;
-  }
+  } */
   
   .hero_section > h1 > span {
     color: black;
     font-weight: 600;
   }
   
-  .hero_slider {
-    /* position: relative;
-    left: 8rem;
-    margin-bottom: 3rem; */
-    /* width: 97%; */
+  /* .hero_slider {
     margin-left: 6rem;
     cursor: pointer;
-  
   }
-  
+   */
+
   .hero_item > img {
     max-height: 5rem;
-  
   }
   
   .hero_item {
     text-align: center;
     font-weight:600;
     font-size: 14px;
-    /* position: relative; */
-    /* left: 6rem; */
   }
   
   /* --------------------------------------------------------------------------------- */
 
-  section > header{
+  /* section > header{
     font-size: 28px;
     font-weight: 600;
     color: rgb(135, 135, 135);
     position: relative;
     left: 9rem;
-  }
+  } */
 
-  .special_slider, .latest_slider{
- 
-  }
 
-  .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+  /* .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
     border-radius: 20px;
     padding: 10px 30px;
     position: relative;
@@ -119,7 +163,7 @@
     background-repeat: no-repeat;
     transition: all 500ms;
     cursor: pointer;
-  }
+  } */
 
   .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
     height: 31rem;
@@ -225,8 +269,6 @@
   top: -1rem;
   padding-right: 6rem;
 }
-
-  
 
   :is(.latest_item) > p{
     font-size: 17px;
@@ -615,10 +657,10 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
 
 /* ------------------------------------------------------------------ */
 
-.preFooter{
+/* .preFooter{
   overflow: hidden;
   margin-left: 8rem;
-}
+} */
 
 .preFooter > header {
   font-size: 13px;
@@ -638,24 +680,24 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
   cursor: pointer;
 }
 
-pre{
+/* pre{
   text-align: left;
   text-decoration: none;
   margin: 0 16rem 0 8rem;
   text-wrap: wrap;
   font-size: 12px;
   color: grey;
-}
+} */
 
-hr{
+/* hr{
   width: 63rem;
   margin: auto;
   border: 1px solid rgb(222, 222, 222);
-}
+} */
 
 /* ---------------FOOTER -----------------*/
 footer{
-  width: 74rem;
+  /* width: 74rem; */
   margin: auto;
   font-size: 12px;
   color: rgb(105, 105, 105);
@@ -720,7 +762,7 @@ a{
 
 p.end{
   text-align: end;
-  margin-left: 15rem;
+  float: right;
 }
 p.end:hover{
   text-decoration: underline;
@@ -728,6 +770,27 @@ p.end:hover{
 }
 
 .postFooter{
- width: 63rem;
+ /* width: 63rem; */
  margin: auto;
 }
+
+
+.dropdown{
+  margin: 1rem;
+  color: black;
+}
+
+.dropdown > span{
+  float: right;
+}
+
+.dropdown > ul{
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.dropdown ul li {
+  padding-top: 10px;
+  color: #526D82;
+}
+
