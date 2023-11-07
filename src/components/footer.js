@@ -5,6 +5,7 @@ const Footer = () => {
         let uList = e.currentTarget.parentElement.children[1];
         if (uList.style.display = "none") {
             uList.style.display = "block"
+            e.currentTarget.innerHTML = "x";
         }
         else if (uList.style.display = "none") {
             uList.style.display = "none"
@@ -142,6 +143,140 @@ const Footer = () => {
                     <li>Gift Cards</li>
                 </ul>
             </div>
+            <hr/>
+            <div className="dropdown">
+            Apple Wallet 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                    <li>AirPods</li>
+                    <li>TV & Home</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+            <div className="dropdown">
+            Account
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                </ul>
+            </div>
+            <hr/>
+            <div className="dropdown">
+            Entertainment 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            Apple Store 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            For Business 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            For Education 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            For Healthcare 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>TV & Home</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            Apple Values 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>TV & Home</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+
+            <div className="dropdown">
+            About Apple 
+            <span role="button" onClick={openDropdown}>+</span>
+                <ul>
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>TV & Home</li>
+                    <li>AirTag</li>
+                    <li>Accessories</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <hr/>
+            <div className="postFooter">
+                    <p>More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/">other retailer</a> near you. Or call 000800 040 1966.</p>
+                    <p style={{color: "black"}}>India</p>
+                <div>
+                <p>Copyright 2023 Apple Inc. All rights reserved</p>
+                <ul className="row">
+                    <li>Privacy Policy <span>|</span></li>
+                    <li>Terms of Use <span>|</span></li>
+                    <li>Sales Policy <span>|</span></li>
+                    <li>Legal <span>|</span></li>
+                    <li>Site Map</li>
+                </ul>
+                </div>
+                </div>
             <hr/>
         </footer>
         </>

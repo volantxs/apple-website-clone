@@ -6,7 +6,7 @@
   }
   
   @media only screen and (min-width: 310px){
-
+/* 
     .navbar {
       display: flex;
       flex-direction: row;
@@ -19,29 +19,42 @@
       background: rgb(255, 255, 255);
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
+    } */
+
+      section > header{
+      font-size: 22px;
+      font-weight: 600;
+      color: rgb(135, 135, 135);
+      margin-left: 1rem;
     }
 
     .hero_section > h1 {
-      font-size: 3rem;
+      font-size: 1.7rem;
       font-weight: 600;
-      color: rgb(135, 135, 135);
+      width: 20rem;
+      color: rgb(102, 102, 102);
       margin-left: 1rem;
     }
 
     .hero_slider {
       cursor: pointer;
-      margin-left: 1rem;
-
+      margin: 4rem 0 4rem 0;
+      /* margin-left: 1rem; */
     }
 
-    section > header{
+
+    .hero_item > img {
+      max-height: 3.3rem;
+    }
+
+    /* section > header{
       font-size: 28px;
       font-weight: 600;
       color: rgb(135, 135, 135);
       margin-left: 1rem;
-    }
+    } */
 
-    .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+    /* .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
       border-radius: 20px;
       padding: 10px 30px;
       position: relative;
@@ -52,7 +65,7 @@
       background-repeat: no-repeat;
       transition: all 500ms;
       cursor: pointer;
-    }
+    } */
 
     .preFooter, footer{
       overflow: hidden;
@@ -68,15 +81,64 @@
     }
 
     hr{
-      overflow: hidden;
-      margin-left: 2rem;
+      margin: 0 5px 0 10px;
       border: 1px solid rgb(222, 222, 222);
     }
 
     div.dropdown > ul{
       display: none;
     }
+
+    div.postFooter{
+      margin: 1rem;
+      font-size: 11px;
+    }
+
+    ul.row{
+      list-style-type: none;
+      padding-left: 0px;
+      color: black;
+    }
+
+    ul.row > li > span {
+      color: #7C81AD;
+      padding: 2px;
+    }
+
+    .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
+      height: 26rem;
+      width: 18rem;
+    }
     
+    .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+      border-radius: 20px;
+      padding: 10px 30px;
+      position: relative;
+      margin: 2rem 0rem 2rem 1rem;
+      box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: all 500ms;
+      cursor: pointer;
+    }
+
+    :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
+      text-align: start;
+      font-size: 18px;
+      font-weight: 400;
+      position: relative;
+      top: -6px;
+    }
+    
+    :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .special_item > h5 {
+    color:#ca6404;
+    }
     
   }
 
@@ -103,7 +165,7 @@
 
   section{
     overflow: hidden;
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
   .hero_header > p {
@@ -130,10 +192,10 @@
     cursor: pointer;
   }
    */
-
+/* 
   .hero_item > img {
     max-height: 5rem;
-  }
+  } */
   
   .hero_item {
     text-align: center;
@@ -151,8 +213,8 @@
     left: 9rem;
   } */
 
-
-  /* .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+/* 
+  .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
     border-radius: 20px;
     padding: 10px 30px;
     position: relative;
@@ -165,10 +227,10 @@
     cursor: pointer;
   } */
 
-  .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
+  /* .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
     height: 31rem;
     width: 25rem;
-  }
+  } */
 
 
 .audio_head{
@@ -234,14 +296,14 @@
     background-position-y: -20px ;
   }
 
-  :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
+  /* :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
     font-weight: 400;
     position: relative;
-  }
+  } */
 
-  :is(.special_item, .latest_item, .acce_head, .audio_head) > h5 {
+  /* :is(.special_item, .latest_item, .acce_head, .audio_head) > h5 {
     color: rgb(255, 190, 111);
-  }
+  } */
 
   .help_one{
   color: #2E97A7;
@@ -277,13 +339,13 @@
     font-weight: 100;
   }
 
-  :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
+  /* :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
     text-align: start;
     font-size: 27px;
     font-weight: 600;
     position: relative;
     top: -6px;
-  }
+  } */
 
   :is(.special_item, .help_one) > h1{
     color: rgb(255, 243, 177);
@@ -751,10 +813,10 @@ dd:first-child:hover{
   cursor: pointer;
 }
 
-li > span{
+/* li > span{
   color: #7C81AD;
   padding: 1rem;
-}
+} */
 
 a{
   color: rgb(0, 119, 255);
@@ -776,7 +838,7 @@ p.end:hover{
 
 
 .dropdown{
-  margin: 1rem;
+  margin: 10px;
   color: black;
 }
 
