@@ -148,6 +148,10 @@
     color:#ca6404;
     }
 
+    .audio_head > h5 {
+      color:#ca6404;
+      }
+
     .vision_item {
       height: 12rem;
       width: 18rem;
@@ -226,8 +230,32 @@
     padding-bottom: 1.6rem;
   }
 
+  .exPad :is(h5, h3, p) {
+    position: relative;
+    top: 17rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .exPad > h3 {
+    padding-bottom: 2rem;
+  }
 
   
+.dot_au{
+  width: 3rem;
+  top: 7rem;
+}
+
+.dot_hd{
+  width: 6rem;
+  top: 7rem;
+}
+
+.dot_n{
+  width: 6rem;
+  top: 7rem;
+}
  
   
     
@@ -515,18 +543,18 @@
 } */
 
 
-.exPad :is(h5, h3, p) {
+/* .exPad :is(h5, h3, p) {
   position: relative;
   top: 22rem;
   padding-left: 2rem;
   padding-right: 2rem;
-}
+} */
 
-.exPad > h3 {
+/* .exPad > h3 {
   padding-bottom: 2rem;
-}
+} */
 
-
+/* 
 .dot_au{
   width: 3rem;
   top: 11rem;
@@ -540,7 +568,7 @@
 .dot_n{
   width: 7rem;
   top: 11rem;
-}
+} */
 
 .dot_hd > img {
   height: 12px;
