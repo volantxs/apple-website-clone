@@ -144,6 +144,10 @@
     color:#ca6404;
     }
 
+    .acce_head > h5 {
+    color:#ca6404;
+    }
+
     .vision_item {
       height: 12rem;
       width: 18rem;
@@ -164,6 +168,68 @@
     margin-top: 1rem;
     height: 1rem;
   }
+
+  .desktop {
+    display: none;
+  }
+
+  .acce_item, .audio_item {
+    float: right;
+    height: 26rem;
+    border-radius: 20px;
+    padding-top: 1rem;
+    width: 18rem;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    background-position-y: 3rem;
+    background-color: white;
+    transition: all 500ms ;
+  }
+
+  :is(.acce_item, .audio_item) :is(h5, h3, p) {
+    position: relative;
+    top: 16rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  :is(.acce_item, .audio_item) > h3 {
+    font-size: 15px;
+    padding-bottom: 0.4rem;
+  }
+
+  :is(.dot, .dot_w, .dot_au, .dot_n) > span{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.7) ;
+    display: inline-block;
+    opacity: 1;
+  }
+
+  .dot{
+    width: 6rem;
+    top: 6rem;
+  }
+
+  .dot_w{
+    width: 4rem;
+    top: 6rem;
+  }
+
+  .a_four > h3 {
+    padding-bottom: 1.6rem;
+  }
+
+
+  
+ 
+  
     
   }
 
@@ -260,7 +326,6 @@
 
 .audio_head{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-music-202310?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1697210875904") ;
-
 }
 
   /* .vision_item {
@@ -268,7 +333,7 @@
     width: 20rem;
   } */
 
-  .acce_item, .audio_item {
+  /* .acce_item, .audio_item {
     float: right;
     height: 31rem;
     border-radius: 20px;
@@ -284,7 +349,7 @@
     background-position-y:5rem;
     background-color: white;
     transition: all 500ms ;
-  }
+  } */
 
   .help_one, .help_three, .help_four, .experience_item {
     height: 31rem;
@@ -406,22 +471,22 @@
     margin-bottom: -10px;
   }
   
-:is(.acce_item, .audio_item) > h3 {
+/* :is(.acce_item, .audio_item) > h3 {
   font-size: 17px;
   padding-bottom: 1rem;
-}
+} */
 
 
-.a_four > h3 {
+/* .a_four > h3 {
   padding-bottom: 37px;
-}
+} */
 
-:is(.acce_item, .audio_item) :is(h5, h3, p) {
+/* :is(.acce_item, .audio_item) :is(h5, h3, p) {
   position: relative;
   top: 20rem;
   padding-left: 2rem;
   padding-right: 2rem;
-}
+} */
 
 .dot, .dot_w, .dot_au, .dot_hd, .dot_n{
   display: flex;
@@ -430,24 +495,24 @@
   position: relative;
 }
 
-.dot{
+/* .dot{
   width: 7rem;
   top: 9rem;
-}
+} */
 
-:is(.dot, .dot_w, .dot_au, .dot_n) > span{
+/* :is(.dot, .dot_w, .dot_au, .dot_n) > span{
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.7) ;
   display: inline-block;
   opacity: 1;
-}
+} */
 
-.dot_w{
+/* .dot_w{
   width: 4rem;
   top: 9rem;
-}
+} */
 
 
 .exPad :is(h5, h3, p) {
