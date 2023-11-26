@@ -14,9 +14,9 @@ const Footer = () => {
 
     return (
         <>
-        {/* <footer>
+        <footer className="desktop">
             <br/><hr/>
-            <div className="footer_desktop">
+            <div className="footer">
                 <div className="row">
                 <div className="col-3"> 
                 <dl>
@@ -124,7 +124,8 @@ const Footer = () => {
                 </div>
 
             
-        </footer> */}
+        </footer>
+
         <footer className="mobile">
             <br/><hr/>
             <div className="dropdown">
@@ -277,7 +278,6 @@ const Footer = () => {
                 </ul>
                 </div>
                 </div>
-            <hr/>
         </footer>
         </>
     )
