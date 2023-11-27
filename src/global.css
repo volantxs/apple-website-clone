@@ -168,7 +168,7 @@
       top: 1rem;
     }
     
-    :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
+    :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item, .edu_item) > h5 {
       font-size: 12px;
       font-weight: 600;
     }
@@ -338,7 +338,7 @@
  }
  :is(.rowOne, .edu_item) > h5 {
   color: #5f5f5f;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
 }
 
@@ -349,6 +349,20 @@
   padding: 1rem;
   width: 10%;
 }
+/* 
+.content{
+  margin-bottom: 3rem;
+} */
+
+.content > button{
+  font-size: 14px;
+  background-color: rgb(232, 232, 232);
+  margin: 0 1rem 1rem 0;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
 
 
   }
@@ -358,7 +372,7 @@
   /* ------------------------------------- */
 
   @media only screen and (min-width: 700px){
-    .navbar {
+    nav.desktop {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -376,13 +390,10 @@
       border-bottom-right-radius: 10px;
     }
 
-  .mobile {
+  nav.mobile {
     display: none;
   }
 
-  .desktop{
-    display: block;
-  }
 
 }
 
@@ -950,7 +961,7 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
   font-size: 13px;
 }
 
-.content{
+/* .content{
   margin-bottom: 3rem;
 }
 
@@ -962,7 +973,7 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
   border-radius: 20px;
   border: none;
   cursor: pointer;
-}
+} */
 
 /* pre{
   text-align: left;
