@@ -25,12 +25,18 @@
     display: block;
   }
   
-  .end > span {
-    margin-left: 1.5rem;
+  nav.mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: white;
 
   }
 
-
+  nav.mobile > .end > span {
+    margin-left: 1.5rem;
+  }
 
       section > header{
       font-size: 21px;
@@ -127,7 +133,7 @@
 
     .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .experience_item, .edu_item {
       border-radius: 20px;
-      padding: 10px 30px;
+      padding: 10px 20px 0 30px  ;
       position: relative;
       margin: 2rem 0rem 2rem 1rem;
       box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
@@ -138,16 +144,28 @@
       cursor: pointer;
     }
 
+    .experience_item > p {
+      font-size: smaller;
+    }
+
     .special_item > h1 {
       font-weight: 400;
     }
 
-    :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
+    :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .experience_item, .edu_item) > h1{
       text-align: start;
       font-size: 18px;
       /* font-weight: 600; */
       position: relative;
       top: -6px;
+    }
+
+    .help_three > h1{
+      text-align: start;
+      font-size: 18px;
+      /* font-weight: 600; */
+      position: relative;
+      top: 1rem;
     }
     
     :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
@@ -162,7 +180,8 @@
     
     .help_four{
       margin: 2rem 2rem 2rem 1rem;
-      
+      box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+      border-radius: 20px;
     }
 
     .special_item > h5 {
@@ -287,12 +306,10 @@
 }
 
 
-
 .rowOne{
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 0.6rem 1rem 0 2rem;
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472");
-  background-size: 115%;
+  background-size: 143%;
   background-position: center ;
   background-repeat: no-repeat;
   background-position-y: -1rem ;
@@ -304,25 +321,25 @@
 .rowTwo{
   display: flex;
   align-items: center;
-  padding: 1rem;
-  padding-left: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   background-color: white;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
-.rowTwo > p {
+/* .rowTwo > p {
   font-size: 17px;
-}
+} */
  .rowOne > h1 {
     text-align: start;
     font-size: 18px;
     position: relative;
-    top: -6px;
+    top: -8px;
  }
  :is(.rowOne, .edu_item) > h5 {
-  color: #526D82;
+  color: #5f5f5f;
   font-weight: 400;
+  font-size: 12px;
 }
 
 .col-10{

@@ -28,6 +28,7 @@ const Navbar = () => {
                 <Link to="/" style={{color:"black", textDecoration: "none"}}><CgShoppingBag size={16}  /></Link>
             </span>
             </nav>
+            {/* mobile */}
             <nav className='navbar mobile'>
                 <div className='start'>  
                 <span>

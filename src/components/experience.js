@@ -29,9 +29,6 @@ const Experience = () => {
             <h5>HOME</h5>
             <h1>See how one app can control your entire home.</h1>
             </div>
-            <div className="experience_item e_five">
-            <h1>Get to know your new device with a free Personal Session.</h1>
-            </div>
            
          
         </Carousel>
