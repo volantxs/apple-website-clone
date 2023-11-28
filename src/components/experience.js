@@ -12,6 +12,7 @@ const Experience = () => {
         <Carousel 
           responsive={responsive} 
           showDots={false} 
+          arrows={false}
           >
             <div className="experience_item e_one">
             <h5>APPLE TV+</h5>

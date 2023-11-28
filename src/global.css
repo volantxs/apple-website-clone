@@ -144,6 +144,13 @@
       cursor: pointer;
     }
 
+    :is(.latest_item) > p{
+      font-size: 15px;
+      position: relative;
+      top: -10px;
+      font-weight: 100;
+    }
+
     .experience_item > p {
       font-size: smaller;
     }
@@ -159,6 +166,8 @@
       position: relative;
       top: -6px;
     }
+
+
 
     .help_three > h1{
       text-align: start;
@@ -436,7 +445,7 @@
     font-weight: 600;
     color: rgb(135, 135, 135);
     position: relative;
-    left: 9rem;
+    left: 8rem;
   }
   
   .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
@@ -451,6 +460,21 @@
     transition: all 500ms;
     cursor: pointer;
   }
+
+  :is(.latest_item) > p{
+    font-size: 17px;
+    position: relative;
+    top: -1rem;
+    font-weight: 100;
+  }
+
+ .latest_item:is(.l_two, .l_three)  h5 {
+  color: white;
+ } 
+
+ .latest_item:is(.l_one, .l_four, .l_five, .l_six)  h5 {
+  color: black;
+ } 
 
     .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
     height: 31rem;
@@ -623,6 +647,8 @@
   align-items: center;
   padding: 1rem;
   padding-left: 2rem;
+  height: 22%;
+
   background-color: white;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -749,6 +775,37 @@ div.desktop{
   width: 100%;
 }
 
+/* -------------------Hovering -------------*/
+
+:is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item, .audio_head, .audio_item, .help_one, .help_two, .help_three, .help_four, .help_five, .experience_item, .edu_item):hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+:is(.acce_item, .audio_item):hover{
+background-position-y: 4rem ;
+}
+
+.latest_item:hover{
+  background-size: 107%;
+  background-position-y: -20px ;
+}
+
+dd:hover{
+  text-decoration: underline;
+}
+
+dd:first-child:hover{
+  text-decoration: none;
+  cursor:auto;
+}
+
+
+p.end:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 }
 
@@ -801,14 +858,6 @@ div.desktop{
 }
 
 
-  :is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item, .audio_head, .audio_item, .help_one, .help_two, .help_three, .help_four, .help_five, .experience_item, .edu_item):hover {
-    transform: scale(1.02);
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
-  }
-
-  :is(.acce_item, .audio_item):hover{
-  background-position-y: 4rem ;
-  }
 
 
 
@@ -816,10 +865,7 @@ div.desktop{
     font-size: 14px;
   }
 
-  .latest_item:hover{
-    background-size: 107%;
-    background-position-y: -20px ;
-  }
+
 
   .help_one{
   color: #2E97A7;
@@ -848,12 +894,7 @@ div.desktop{
   padding-right: 6rem;
 }
 
-  :is(.latest_item) > p{
-    font-size: 17px;
-    position: relative;
-    top: -1rem;
-    font-weight: 100;
-  }
+
 
 
 
@@ -1131,14 +1172,7 @@ dd{
   margin: 10px;
 }
 
-dd:hover{
-  text-decoration: underline;
-}
 
-dd:first-child:hover{
-  text-decoration: none;
-  cursor:auto;
-}
 
 
 
@@ -1150,11 +1184,6 @@ a{
 .postFooter p.end{
   text-align: end;
   float: right;
-}
-
-p.end:hover{
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .dropdown{

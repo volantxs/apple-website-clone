@@ -12,6 +12,7 @@ const Help = () => {
         <Carousel 
           responsive={responsive} 
           showDots={false} 
+          arrows={false}
           >
             <div className="help_one ">
             <h5>APPLE SPECIALIST</h5>

@@ -69,7 +69,8 @@ const Audio = () => {
         <div   className="audio_slider mobile"  >
             <div className="cara">
         <Carousel 
-          responsive={responsive} 
+          responsive={responsive}
+          arrows={false} 
           >
              <div className="audio_head">
         <h5>APPLE MUSIC OFFER</h5>
