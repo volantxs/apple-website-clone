@@ -394,7 +394,286 @@
     display: none;
   }
 
+  .hero_section > h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(135, 135, 135);
+    margin: 11rem 0rem 6rem 8rem;
+    width: 40rem;
+    left: 9rem;
+  }
 
+    .hero_slider {
+    margin-left: 6rem;
+    cursor: pointer;
+  }
+  
+
+  .hero_item > img {
+    max-height: 5rem;
+  }
+
+  
+  section > header{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(135, 135, 135);
+    position: relative;
+    left: 9rem;
+  }
+  
+  .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
+    border-radius: 20px;
+    padding: 10px 30px;
+    position: relative;
+    margin: 2rem 0rem 2rem 9rem;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 500ms;
+    cursor: pointer;
+  }
+
+    .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
+    height: 31rem;
+    width: 25rem;
+  }
+
+    .vision_item {
+    height: 15rem;
+    width: 20rem;
+  }
+
+    .acce_item, .audio_item {
+    float: right;
+    height: 31rem;
+    border-radius: 20px;
+    padding-top: 1rem;
+    width: 20rem;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-position-y:5rem;
+    background-color: white;
+    transition: all 500ms ;
+  }
+
+    .help_one, .help_three, .help_four, .experience_item {
+    height: 31rem;
+    width: 30rem;
+  }
+
+
+  .help_two {
+    height: 31rem;
+    width: 25rem;
+  }
+
+    :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
+    font-weight: 400;
+    position: relative;
+  }
+
+  :is(.special_item, .latest_item, .acce_head, .audio_head) > h5 {
+    color: rgb(255, 190, 111);
+  }
+
+    :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
+    text-align: start;
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+    top: -6px;
+  }
+
+  
+  .vision_item > h1 {
+    position: relative;
+    top: 3.4rem;
+    width: 16rem;
+    color: rgb(255, 243, 177);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .vision_item > span {
+    position: absolute;
+    margin-top: 1rem;
+  }
+
+  :is(.acce_item, .audio_item) > h3 {
+  font-size: 17px;
+  padding-bottom: 1rem;
+}
+
+.a_four > h3 {
+  padding-bottom: 37px;
+}
+
+:is(.acce_item, .audio_item) :is(h5, h3, p) {
+  position: relative;
+  top: 20rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dot{
+  width: 7rem;
+  top: 9rem;
+}
+
+:is(.dot, .dot_w, .dot_au, .dot_n) > span{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.7) ;
+  display: inline-block;
+  opacity: 1;
+}
+
+.dot_w{
+  width: 4rem;
+  top: 9rem;
+}
+
+
+.exPad :is(h5, h3, p) {
+  position: relative;
+  top: 22rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.exPad > h3 {
+  padding-bottom: 2rem;
+}
+
+
+.dot_au{
+  width: 3rem;
+  top: 11rem;
+}
+
+.dot_hd{
+  width: 7rem;
+  top: 11rem;
+}
+
+.dot_n{
+  width: 7rem;
+  top: 11rem;
+}
+
+.help_four{
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-left: 4rem;
+}
+
+.help_three{
+  margin-left: 4rem;
+}
+
+.rowOne{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: -1rem ;
+  height: 80%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rowTwo{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 2rem;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rowTwo > p {
+  font-size: 17px;
+}
+ .rowOne > h1 {
+    text-align: start;
+    font-size: 26px;
+ }
+ :is(.rowOne, .edu_item) > h5 {
+  color: #526D82;
+  font-weight: 400;
+}
+
+
+.col-10{
+  width: 85%;
+}
+.col-2{
+  padding: 1rem;
+  width: 10%;
+}
+
+.preFooter{
+  overflow: hidden;
+  /* margin-left: 8rem; */
+}
+
+.content{
+  margin: 0 0 2rem 9rem;
+}
+
+.content > button{
+  font-size: 14px;
+  background-color: rgb(232, 232, 232);
+  margin-right: 1rem;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+pre{
+  text-align: left;
+  text-wrap: wrap;
+  font-size: 12px;
+  color: grey;
+  margin: auto;
+  width: 66%;
+}
+
+hr{
+  width: 100%;
+  margin: auto;
+  border: 1px solid rgb(222, 222, 222);
+}
+
+/* ---------------FOOTER -----------------*/
+footer{
+  width: 65%;
+  margin: auto;
+  font-size: 12px;
+  color: rgb(105, 105, 105);
+}
+
+li > span{
+  color: #7C81AD;
+  padding: 1rem;
+}
+
+
+
+  
 }
 
 
@@ -440,71 +719,17 @@
   
   /* --------------------------------------------------------------------------------- */
 
-  /* section > header{
-    font-size: 28px;
-    font-weight: 600;
-    color: rgb(135, 135, 135);
-    position: relative;
-    left: 9rem;
-  } */
-
-/* 
-  .special_item, .latest_item, .vision_item, .acce_head, .audio_head, .help_one, .help_two, .help_three, .help_four, .experience_item, .edu_item {
-    border-radius: 20px;
-    padding: 10px 30px;
-    position: relative;
-    margin: 2rem 0rem 2rem 9rem;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all 500ms;
-    cursor: pointer;
-  } */
-
-  /* .special_item, .latest_item, .acce_head, .audio_head, .edu_item{
-    height: 31rem;
-    width: 25rem;
-  } */
 
 
 .audio_head{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-music-202310?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1697210875904") ;
 }
 
-  /* .vision_item {
-    height: 15rem;
-    width: 20rem;
-  } */
 
-  /* .acce_item, .audio_item {
-    float: right;
-    height: 31rem;
-    border-radius: 20px;
-    padding-top: 1rem;
-    width: 20rem;
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-position-y:5rem;
-    background-color: white;
-    transition: all 500ms ;
-  } */
 
-  /* .help_one, .help_three, .help_four, .experience_item {
-    height: 31rem;
-    width: 30rem;
-  } */
 
-/* 
-  .help_two {
-    height: 31rem;
-    width: 25rem;
-  } */
+
+
 
   :is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item, .audio_head, .audio_item, .help_one, .help_two, .help_three, .help_four, .help_five, .experience_item, .edu_item):hover {
     transform: scale(1.02);
@@ -530,14 +755,7 @@
     background-position-y: -20px ;
   }
 
-  /* :is(.special_item, .latest_item, .acce_head, .audio_head, .help_one, .help_two, .experience_item) > h5 {
-    font-weight: 400;
-    position: relative;
-  } */
 
-  /* :is(.special_item, .latest_item, .acce_head, .audio_head) > h5 {
-    color: rgb(255, 190, 111);
-  } */
 
   .help_one{
   color: #2E97A7;
@@ -573,13 +791,7 @@
     font-weight: 100;
   }
 
-  /* :is(.latest_item, .special_item, .acce_head, .help_one, .help_two, .help_three, .experience_item, .edu_item) > h1{
-    text-align: start;
-    font-size: 27px;
-    font-weight: 600;
-    position: relative;
-    top: -6px;
-  } */
+
 
   :is(.special_item, .help_one) > h1{
     color: rgb(255, 243, 177);
@@ -592,21 +804,7 @@
   .help_two{
   color: #F6F4EB;
   }
-/* 
-  .vision_item > h1 {
-    position: relative;
-    top: 3.4rem;
-    width: 16rem;
-    color: rgb(255, 243, 177);
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1.3;
-  } */
 
-  /* .vision_item > span {
-    position: absolute;
-    margin-top: 1rem;
-  } */
 
   :is(.acce_item, .audio_item) > h5 {
     color: #ca6404;
@@ -615,22 +813,7 @@
     margin-bottom: -10px;
   }
   
-/* :is(.acce_item, .audio_item) > h3 {
-  font-size: 17px;
-  padding-bottom: 1rem;
-} */
 
-
-/* .a_four > h3 {
-  padding-bottom: 37px;
-} */
-
-/* :is(.acce_item, .audio_item) :is(h5, h3, p) {
-  position: relative;
-  top: 20rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-} */
 
 .dot, .dot_w, .dot_au, .dot_hd, .dot_n{
   display: flex;
@@ -639,52 +822,6 @@
   position: relative;
 }
 
-/* .dot{
-  width: 7rem;
-  top: 9rem;
-} */
-
-/* :is(.dot, .dot_w, .dot_au, .dot_n) > span{
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.7) ;
-  display: inline-block;
-  opacity: 1;
-} */
-
-/* .dot_w{
-  width: 4rem;
-  top: 9rem;
-} */
-
-
-/* .exPad :is(h5, h3, p) {
-  position: relative;
-  top: 22rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-} */
-
-/* .exPad > h3 {
-  padding-bottom: 2rem;
-} */
-
-/* 
-.dot_au{
-  width: 3rem;
-  top: 11rem;
-}
-
-.dot_hd{
-  width: 7rem;
-  top: 11rem;
-}
-
-.dot_n{
-  width: 7rem;
-  top: 11rem;
-} */
 
 .dot_hd > img {
   height: 12px;
@@ -692,59 +829,7 @@
   box-shadow: inset 0px 1px 1px rgba(39, 15, 2, 0.2) ;
 }
 
-/* .help_four{
-  padding-left: 0px;
-  padding-top: 0px;
-  margin-left: 4rem;
-} */
 
-/* .help_three{
-  margin-left: 4rem;
-} */
-
-/* .rowOne{
-  padding-top: 1rem;
-  padding-left: 2rem;
-  background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1691156993472");
-  background-size: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-position-y: -1rem ;
-  height: 80%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.rowTwo{
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  padding-left: 2rem;
-  background-color: white;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-} */
-
-/* .rowTwo > p {
-  font-size: 17px;
-}
- .rowOne > h1 {
-    text-align: start;
-    font-size: 26px;
- }
- :is(.rowOne, .edu_item) > h5 {
-  color: #526D82;
-  font-weight: 400;
-}
-
-
-.col-10{
-  width: 85%;
-}
-.col-2{
-  padding: 1rem;
-  width: 10%;
-} */
 
 .button{
   width: 35px;
@@ -952,51 +1037,11 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
 
 /* ------------------------------------------------------------------ */
 
-/* .preFooter{
-  overflow: hidden;
-  margin-left: 8rem;
-} */
 
 .preFooter > header {
   font-size: 13px;
 }
 
-/* .content{
-  margin-bottom: 3rem;
-}
-
-.content > button{
-  font-size: 14px;
-  background-color: rgb(232, 232, 232);
-  margin-right: 1rem;
-  padding: 10px 15px 10px 15px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
-} */
-
-/* pre{
-  text-align: left;
-  text-decoration: none;
-  margin: 0 16rem 0 8rem;
-  text-wrap: wrap;
-  font-size: 12px;
-  color: grey;
-} */
-
-/* hr{
-  width: 63rem;
-  margin: auto;
-  border: 1px solid rgb(222, 222, 222);
-} */
-
-/* ---------------FOOTER -----------------*/
-/* footer{
-  width: 74rem;
-  margin: auto;
-  font-size: 12px;
-  color: rgb(105, 105, 105);
-} */
 
 .row{
   display: flex;
@@ -1046,10 +1091,7 @@ dd:first-child:hover{
   cursor: pointer;
 }
 
-/* li > span{
-  color: #7C81AD;
-  padding: 1rem;
-} */
+
 
 a{
   color: rgb(0, 119, 255);

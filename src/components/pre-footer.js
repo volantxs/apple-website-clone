@@ -1,10 +1,10 @@
 const PreFooter = () => {
     return(
         <div className="preFooter">
+            <div className="content">
             <header>
                 <h1>Quick Links</h1>
             </header>
-            <div className="content">
                 <button>Order Status</button>
                 <button>Shopping Help</button>
                 <button>Your Saves</button>
