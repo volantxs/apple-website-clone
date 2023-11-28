@@ -12,6 +12,8 @@ const Latest = () => {
         <Carousel 
           responsive={responsive} 
           showDots={false} 
+          arrows={false}
+
           >
             <div className="latest_item l_one">
             <h5>IPHONE 15</h5>
@@ -43,6 +45,7 @@ const Latest = () => {
             <h1>The most affordable Apple Pencil</h1>
             <p>From ₹7900.00</p>
             </div>
+            <div></div>
         </Carousel>
 
         </div>

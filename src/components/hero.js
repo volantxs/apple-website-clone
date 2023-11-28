@@ -12,6 +12,7 @@ const Hero = () => {
                 <h1><span>Store.</span> Brighten the season with products you love.</h1>
             </div>
                 <Carousel responsive={responsive} 
+                arrows={false}
                 className="hero_slider"
                 >
                 <div className="hero_item" >

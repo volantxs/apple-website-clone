@@ -367,6 +367,23 @@
 
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* ------------------------------------- */
 /* DESKTOP */
   /* ------------------------------------- */
@@ -440,9 +457,17 @@
     width: 25rem;
   }
 
+
     .vision_item {
     height: 15rem;
     width: 20rem;
+  }
+
+  
+  .acce_head, .audio_head{
+    position: relative;
+    z-index: 1;
+    float: left;
   }
 
     .acce_item, .audio_item {
@@ -653,17 +678,22 @@ pre{
 }
 
 hr{
-  width: 100%;
+  width: 85%;
   margin: auto;
   border: 1px solid rgb(222, 222, 222);
 }
 
 /* ---------------FOOTER -----------------*/
-footer{
-  width: 65%;
+footer.desktop{
+  display: block;
+  width: 76%;
   margin: auto;
   font-size: 12px;
   color: rgb(105, 105, 105);
+}
+
+footer.mobile{
+  display: none;
 }
 
 li > span{
@@ -671,9 +701,55 @@ li > span{
   padding: 1rem;
 }
 
+.postFooter{
+  width: 85%;
+  margin: auto;
+ }
+
+ /* .postFooter ul{
+  padding-left: 2rem;
+ } */
+
+/* .postFooter span {
+  margin: 0 1rem 0 1rem;
+} */
 
 
-  
+div.mobile{
+  display: none;
+}
+
+div.desktop{
+  display: block;
+}
+
+.endnote{
+  display: flex;
+  justify-content: start;
+
+}
+
+.endnote > ul{
+  list-style-type: none;
+  padding-left: 2rem;
+
+}
+
+.endnote span{
+  margin: 0 1rem 0 1rem;
+}
+
+.endnote > ul > li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postFooter  hr{
+  margin: auto;
+  width: 100%;
+}
+
+
 }
 
 
@@ -720,15 +796,9 @@ li > span{
   /* --------------------------------------------------------------------------------- */
 
 
-
 .audio_head{
   background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-diwali-music-202310?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1697210875904") ;
 }
-
-
-
-
-
 
 
   :is(.special_item, .latest_item, .vision_item, .acce_head, .acce_item, .audio_head, .audio_item, .help_one, .help_two, .help_three, .help_four, .help_five, .experience_item, .edu_item):hover {
@@ -740,11 +810,7 @@ li > span{
   background-position-y: 4rem ;
   }
 
-  .acce_head, .audio_head{
-    position: relative;
-    z-index: 1;
-    float: left;
-  }
+
 
   :is(.acce_item, .audio_item) > p {
     font-size: 14px;
@@ -754,8 +820,6 @@ li > span{
     background-size: 107%;
     background-position-y: -20px ;
   }
-
-
 
   .help_one{
   color: #2E97A7;
@@ -1057,8 +1121,9 @@ background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.ap
 }
 
 dd:first-child{
-  color: rgb(105, 105, 105);
+  color: rgb(34, 34, 34);
   font-weight: 600;
+  margin-top: 1.5em;
 }
 
 dd{
@@ -1076,41 +1141,21 @@ dd:first-child:hover{
 }
 
 
-.endnote{
-  display: flex;
-  justify-content: start;
-  
-}
-
-.endnote > ul{
-  list-style-type: none;
-}
-
-.endnote > ul > li:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 
 
 a{
   color: rgb(0, 119, 255);
 }
 
-p.end{
+.postFooter p.end{
   text-align: end;
   float: right;
 }
+
 p.end:hover{
   text-decoration: underline;
   cursor: pointer;
 }
-
-.postFooter{
- /* width: 63rem; */
- margin: auto;
-}
-
 
 .dropdown{
   margin: 10px 0 10px 0;

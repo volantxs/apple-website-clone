@@ -42,6 +42,7 @@ const Vision = () => {
             <span><BsFillCreditCardFill size={45} color="#64CCC5" /></span>
             <h1><span style={{color:"#64CCC5"}}>Trade in your eligible Mac, Apple Watch or iPad.</span> In store only.</h1>
             </div>
+            <div></div>
         </Carousel>
 
         </div>

@@ -11,6 +11,8 @@ const Special = () => {
         <Carousel 
           responsive={responsive} 
           showDots={false} 
+          arrows={false}
+
           >
             <div className="special_item s_one">
             <h5>FESTIVE OFFER</h5>
@@ -41,6 +43,7 @@ Customise it the way you want.</h1>
             <h1>Save up to ₹10000.00§§
 Customise it the way you want.</h1>
             </div>
+            <div></div>
         </Carousel>
 
         </div>

@@ -7,7 +7,7 @@ const Footer = () => {
             uList.style.display = "block"
             e.currentTarget.innerHTML = "x";
         }
-        else if (uList.style.display = "none") {
+        else if (uList.style.display = "block") {
             uList.style.display = "none"
         }
     }
@@ -119,7 +119,6 @@ const Footer = () => {
                     <li>Legal<span>|</span></li>
                     <li>Site Map</li>
                 </ul>
-                <p className="end">India</p>
                 </div>
                 </div>
 
@@ -267,7 +266,6 @@ const Footer = () => {
             <div className="postFooter">
                     <p>More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/">other retailer</a> near you. Or call 000800 040 1966.</p>
                     <p style={{color: "black"}}>India</p>
-                <div>
                 <p>Copyright 2023 Apple Inc. All rights reserved</p>
                 <ul className="row">
                     <li>Privacy Policy <span>|</span></li>
@@ -276,7 +274,6 @@ const Footer = () => {
                     <li>Legal <span>|</span></li>
                     <li>Site Map</li>
                 </ul>
-                </div>
                 </div>
         </footer>
         </>

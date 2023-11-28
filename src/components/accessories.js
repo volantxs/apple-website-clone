@@ -76,10 +76,13 @@ const Accessories = () => {
         </Carousel>
         </div>
         </div>
+
         <div   className="latest_slider mobile"  >
             <div className="cara">
         <Carousel 
-          responsive={responsive} 
+          responsive={responsive}
+          arrows={false}
+
           >
               <div className="acce_head a_one">
         <h5>FABULOUSLY FESTIVE</h5>
@@ -155,11 +158,11 @@ const Accessories = () => {
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2.8
+      items: 2.85
     },
     tablet: {
       breakpoint: { max: 1024, min: 764 },
-      items: 1.3
+      items: 2.3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
