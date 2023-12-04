@@ -56,12 +56,12 @@ Customise it the way you want.</h1>
 
 const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 2024 },
       items: 3.6
     },
     tablet: {
-      breakpoint: { max: 1024, min: 764 },
-      items: 2.2
+      breakpoint: { max: 2024, min: 864 },
+      items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
