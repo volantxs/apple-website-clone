@@ -55,18 +55,23 @@ Customise it the way you want.</h1>
 }
 
 const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 2024 },
-      items: 3.6
-    },
-    tablet: {
-      breakpoint: { max: 2024, min: 864 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1.18
-    }
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 4
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1524 },
+    items: 3.6
+  },
+  tablet: {
+    breakpoint: { max: 1524, min: 464 },
+    items: 3.4
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1.25
+  }
   };
 
 export default Special;

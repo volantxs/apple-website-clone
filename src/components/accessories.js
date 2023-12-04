@@ -156,18 +156,23 @@ const Accessories = () => {
 }
 
 const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 2.85
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 764 },
-      items: 2.3
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1.18
-    }
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 4
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1524 },
+    items: 3.6
+  },
+  tablet: {
+    breakpoint: { max: 1524, min: 464 },
+    items: 3.4
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1.25
+  }
   };
 
 export default Accessories;
