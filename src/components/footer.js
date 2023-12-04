@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="postFooter">
-                    <p>More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/">other retailer</a> near you. Or call 000800 040 1966.</p>
+                    <p>More ways to shop: <a href="">Find an Apple Store</a> or <a href="">other retailer</a> near you. Or call 000800 040 1966.</p>
                 <hr/>
                 <div className="endnote">
                 <p>Copyright 2023 Apple Inc. All rights reserved</p>
@@ -264,7 +264,7 @@ const Footer = () => {
             </div>
             <hr/>
             <div className="postFooter">
-                    <p>More ways to shop: <a href="https://www.apple.com/in/retail/">Find an Apple Store</a> or <a href="https://locate.apple.com/">other retailer</a> near you. Or call 000800 040 1966.</p>
+                    <p>More ways to shop: <a href="">Find an Apple Store</a> or <a href="">other retailer</a> near you. Or call 000800 040 1966.</p>
                     <p style={{color: "black"}}>India</p>
                 <p>Copyright 2023 Apple Inc. All rights reserved</p>
                 <ul className="row">
