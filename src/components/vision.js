@@ -61,11 +61,11 @@ const responsive = {
   },
   desktop: {
     breakpoint: { max: 3000, min: 1524 },
-    items: 3.6
+    items: 4.45
   },
   tablet: {
     breakpoint: { max: 1524, min: 464 },
-    items: 3.4
+    items: 4.2
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
